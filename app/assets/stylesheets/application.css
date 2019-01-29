@@ -105,8 +105,11 @@ a.btn-cta-secondary:hover,
   background: #3aaa64;
   font-size: 12px;
 }
-.red-label{
+.archived{
   background: #cb2431 !important;
+}
+.in-progress{
+  background: #5486EF !important;
 }
 a.dotted-link {
   border-bottom: 1px dotted #778492;
