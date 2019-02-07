@@ -1,0 +1,22 @@
+!!!
+%html
+	%head
+		%meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+		%meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+		%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+		-description = @intro.description + " " + @education.description + " " + @employment.description + " " + @skills.description
+		-keywords = @intro.keyword + " "+ @education.keyword + " "+ @employment.keyword + " "+ @skills.keyword
+		%meta{:content => "#{description}", :name => "description"}/
+		%meta{:content => "#{keywords}", :name => "keywords"}/
+		%meta{:content => "Saurabh Chavhan", :name => "author"}/
+
+		%title Saurabh Chavhan
+		= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+		= javascript_include_tag 'application', 'data-turbolinks-track' => true
+		= csrf_meta_tags
+		%link{:href => "http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic", :rel => "stylesheet", :type => "text/css"}/
+		%link{:href => "http://fonts.googleapis.com/css?family=Montserrat:400,700", :rel => "stylesheet", :type => "text/css"}/
+		%link{:href => "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", :rel => "stylesheet"}/
+
+	%body
+	= yield

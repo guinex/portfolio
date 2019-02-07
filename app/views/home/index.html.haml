@@ -1,273 +1,287 @@
-!!!
-%html{:lang => "en"}
-  %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title Saurabh Chavhan
-    %meta{:charset => "utf-8"}/
-    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    %meta{:content => "Portfolio", :name => "description"}/
-    %link{:href => "http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "http://fonts.googleapis.com/css?family=Montserrat:400,700", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", :rel => "stylesheet"}/
-    %link{:href => "../../assets/images/favicon.ico", :rel => "shortcut icon"}
-    / Global CSS
-    = stylesheet_link_tag 'bootstrap.min.css'
-    / Plugins CSS
-    = stylesheet_link_tag 'font-awesome.css'
-    / github acitivity css
-    = stylesheet_link_tag 'github-activity.css'
-    / Theme CSS
-    = stylesheet_link_tag 'styles.css'
 
-  %body
-    / ******HEADER******
-    %header.header
-      .container
-        / %img.profile-image.img-responsive.pull-left{:alt => "Saurabh Chavhan", :src => "../../assets/images/profile.png"}/
-        =image_tag "profile.png", class: 'profile-image img-responsive pull-left'
-        .profile-content.pull-left
-          %h1.name Saurabh Chavhan
-          %h2.desc Graduate Student at Syracuse University
-          %h2.desc (Software Engineer)
-          %ul.social.list-inline
-            / <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            / <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            %li
-              %a{:href => "https://www.linkedin.com/in/saurabh-chavhan/"}
-                %i.fa.fa-linkedin
-            %li
-              %a{:href => "https://github.com/guinex"}
-                %i.fa.fa-github-alt
-    .container.sections-wrapper
-      .row
-        .primary.col-md-8.col-sm-12.col-xs-12
-          %section.about.section
-            .section-inner
-              %h2.heading About Me!
-              .content
-                %p Graduate student at Syracuse University pursuing masters in Computer Science.
-                %p I am also an experienced Software Developer with a demonstrated history of working in the E-Commerce industry with strong engineering professional skills in Python, Ruby on Rails, Java, R, Git, Javascript. Quick learner, Self-motivated, Team player.
-          %section.projects.section
-            .section-inner
-              %h2.heading Projects
-              .content
-                .item
-                  %h3.title
-                    %a{:href => "https://github.com/guinex/twitter-analytics"} Follower Prediction Twitter
-                    %span.label.label-theme Open Source
-                  %p.summary System predicts whether a new twitter handle will follow certian celebrities. Data consists of 10 celebrities, their 100 recent tweets and ids of all followers, and 100 recent tweets followers. Prediction is done in 2 ways, first is using the logistic regression we check if followers of the celebrities (who fall are in same category) are more likely to follow other celebrities (of that same category) or not. Second is to check whether a new twitter handle share the same interest as the celebrities or not.
-                  %p Used logistic regression to check whether a new Twitter handle will follow the selected celebrities or not.
-                  %p Generated a classification model using Multinomial Naive Bayes to check if the new twitter handle has the same interest as the celebrities. Sample data provided to this model was top 100 recent tweets of the celebrities, of their followers and tweets of the new twitter handle.
-                  %p
-                    %a.more-link{:href => "https://github.com/guinex/twitter-analytics", :target => "_blank"}
-                      %i.fa.fa-external-link
-                      View on Github
-                .item
-                  %h3.title
-                    %a{:href => "#"} Digital Checkout System for Shopping Marts
-                    %span.label.label-theme.archived Archived
-                  %p.summary
-                    Digitalized the process purchasing products from marts which save customer`s time and makes the purchasing process easy. It is a Mobile application in PhoneGap using HTML, CSS, and JavaScript, using the application user can scan products to add it in a cart and can pay invoices without standing in the queue.
-                  %p Applied Market Basket Analysis to generate recommendations for users.
-                  %p Predicted purchase pattern of customers by Data Mining the user-generated data.
-                  %p
-                    %a.more-link{:href => "https://github.com/guinex/one-touch-billing-system", :target => "_blank"}
-                      %i.fa.fa-external-link
-                      View on GitHub
-                .item
-                  %h3.title
-                    %a{:href => "#"} LineUp
-                    %span.label.label-theme.in-progress In Progress
-                  %p.summary A Time Management Tool that allows you to create, track, schedule, assign tasks. Frontend is being build using AngularJS and backend is being build using Node.js
+%link{:href => "../../assets/images/favicon.ico", :rel => "shortcut icon"}
+/ Global CSS
+= stylesheet_link_tag 'bootstrap.min.css'
+/ Plugins CSS
+= stylesheet_link_tag 'font-awesome.css'
+/ github acitivity css
+= stylesheet_link_tag 'github-activity.css'
+/ Theme CSS
+= stylesheet_link_tag 'styles.css'
+
+%header.header
+  .container
+    / %img.profile-image.img-responsive.pull-left{:alt => "Saurabh Chavhan", :src => "../../assets/images/profile.png"}/
+    =image_tag "profile.png", class: 'profile-image img-responsive pull-left'
+    .profile-content.pull-left
+      %h1.name Saurabh Chavhan
+      %h2.desc Graduate Student at Syracuse University
+      %h2.desc (Software Engineer)
+      %ul.social.list-inline
+        / <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        / <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        %li
+          %a{:href => "https://www.linkedin.com/in/saurabh-chavhan/"}
+            %i.fa.fa-linkedin
+        %li
+          %a{:href => "https://github.com/guinex"}
+            %i.fa.fa-github-alt
+.container.sections-wrapper
+  .row
+    .primary.col-md-8.col-sm-12.col-xs-12
+      %section.about.section
+        .section-inner
+          %h2.heading About Me!
+          .content
+            %p Graduate student at Syracuse University pursuing masters in Computer Science.
+            %p I am also an experienced Software Developer with a demonstrated history of working in the E-Commerce industry with strong engineering professional skills in Python, Ruby on Rails, Java, R, Git, Javascript. Quick learner, Self-motivated, Team player.
+      %section.experience.section
+        .section-inner
+          %h2.heading Work Experience
+          .content
+            .item
+              %h3.title
+                Software Engineer -
+                %span.place
+                  %a{:href => "#"} Mirraw
+                %span.year (June 2016 - June 2018)
+              %p Designed a customized A/B Testing framework (like Google Optimize) for producing various versions of product catalog page this increased average session duration time by 13% and E-Commerce conversion rate by 2%.
+              %p Implemented backend APIs to integrate PayPal (and PayPal Express checkout) and RazorPay payment gateways, which increased payment success rate by 24% and reduced error rates by distributing user traffic between 2 payment gateways.
+              %p Designed and Implemented a survey system to estimate the Net Promoter Score, which helped in gathering customer feedback and calculating the Order Defect Rate to improve stitching, delivery, quality of products.
+              %p Developed Reverse Image Search Algorithm in Ruby where similar products with different keywords can be identified using images, this feature helped in identifying over 70,000 products as duplicate inventory.
+              %p Added functionality of bulk insert on top of delayed job active record to reduce the DB write time from 1200ms to 400ms.
+              %p Collaborated with a developer in Dynamic Pricing Project that helps to change price of a product in different regions according to demand, this ensured a stable revenue growth.
+            / //item
+            .item
+              %h3.title
+                Web Developer Intern -
+                %span.place
+                  %a{:href => "#"} Knit - IIT Bombay
+                %span.year (April 2015 - May 2015)
+              %p Developed a Web app that helps teachers to communicate with Parents and students by creating classrooms.
+              %p Created JavaScript API`s to supports mobile platforms(Android/ iOS) and web apps.
+              %p Managed development and deployment of Backend JavaScript cloud code to parse.com.
+      %section.projects.section
+        .section-inner
+          %h2.heading Projects
+          .content
+            .item
+              %h3.title
+                %a{:href => "https://github.com/guinex/twitter-analytics"} Follower Prediction Twitter
+                %span.label.label-theme Open Source
+              %p.summary System predicts whether a new twitter handle will follow certian celebrities. Data consists of 10 celebrities, their 100 recent tweets and ids of all followers, and 100 recent tweets followers. Prediction is done in 2 ways, first is using the logistic regression we check if followers of the celebrities (who fall are in same category) are more likely to follow other celebrities (of that same category) or not. Second is to check whether a new twitter handle share the same interest as the celebrities or not.
+              %p Used logistic regression to check whether a new Twitter handle will follow the selected celebrities or not.
+              %p Generated a classification model using Multinomial Naive Bayes to check if the new twitter handle has the same interest as the celebrities. Sample data provided to this model was top 100 recent tweets of the celebrities, of their followers and tweets of the new twitter handle.
+              %p
+                %a.more-link{:href => "https://github.com/guinex/twitter-analytics", :target => "_blank"}
+                  %i.fa.fa-external-link
+                  View on Github
+            .item
+              %h3.title
+                %a{:href => "#"} Digital Checkout System for Shopping Marts
+                %span.label.label-theme.archived Archived
+              %p.summary
+                Digitalized the process purchasing products from marts which save customer`s time and makes the purchasing process easy. It is a Mobile application in PhoneGap using HTML, CSS, and JavaScript, using the application user can scan products to add it in a cart and can pay invoices without standing in the queue.
+              %p Applied Market Basket Analysis to generate recommendations for users.
+              %p Predicted purchase pattern of customers by Data Mining the user-generated data.
+              %p
+                %a.more-link{:href => "https://github.com/guinex/one-touch-billing-system", :target => "_blank"}
+                  %i.fa.fa-external-link
+                  View on GitHub
+            .item
+              %h3.title
+                %a{:href => "#"} LineUp
+                %span.label.label-theme.in-progress In Progress
+              %p.summary A Time Management Tool that allows you to create, track, schedule, assign tasks. Frontend is being build using AngularJS and backend is being build using Node.js
 
 
-          %section.experience.section
-            .section-inner
-              %h2.heading Work Experience
-              .content
-                .item
-                  %h3.title
-                    Software Engineer -
-                    %span.place
-                      %a{:href => "#"} Mirraw
-                    %span.year (June 2016 - June 2018)
-                  %p Designed a customized A/B Testing framework (like Google Optimize) for producing various versions of product catalog page this increased average session duration time by 13% and E-Commerce conversion rate by 2%.
-                  %p Implemented backend APIs to integrate PayPal (and PayPal Express checkout) and RazorPay payment gateways, which increased payment success rate by 24% and reduced error rates by distributing user traffic between 2 payment gateways.
-                  %p Designed and Implemented a survey system to estimate the Net Promoter Score, which helped in gathering customer feedback and calculating the Order Defect Rate to improve stitching, delivery, quality of products.
-                  %p Developed Reverse Image Search Algorithm in Ruby where similar products with different keywords can be identified using images, this feature helped in identifying over 70,000 products as duplicate inventory.
-                  %p Added functionality of bulk insert on top of delayed job active record to reduce the DB write time from 1200ms to 400ms.
-                  %p Collaborated with a developer in Dynamic Pricing Project that helps to change price of a product in different regions according to demand, this ensured a stable revenue growth.
-                / //item
-                .item
-                  %h3.title
-                    Web Developer Intern -
-                    %span.place
-                      %a{:href => "#"} Knit - IIT Bombay
-                    %span.year (April 2015 - May 2015)
-                  %p Developed a Web app that helps teachers to communicate with Parents and students by creating classrooms.
-                  %p Created JavaScript API`s to supports mobile platforms(Android/ iOS) and web apps.
-                  %p Managed development and deployment of Backend JavaScript cloud code to parse.com.
-          %section.github.section
-            .section-inner
-              %h2.heading My GitHub
-              #ghfeed.ghfeed
-        .secondary.col-md-4.col-sm-12.col-xs-12
-          %aside.info.aside.section
-            .section-inner
-              %h2.heading.sr-only Basic Information
-              .content
-                %ul.list-unstyled
-                  %li
-                    %i.fa.fa-map-marker
-                    = succeed "Syracuse, NY " do
-                      %span.sr-only Location:
-                  %li
-                    %i.fa.fa-envelope-o
-                    %span.sr-only Email:
-                    %a{:href => "#"} sachavha@syr.edu
-          %aside.skills.aside.section
-            .section-inner
-              %h2.heading Skills
-              .content
-                %p.intro
-                .skillset
-                  .item
-                    %h3.level-title
-                      Python
-                      %span.level-label{"data-animation" => "true", "data-placement" => "left", "data-toggle" => "tooltip", :title => "I use this ...well Everywhere!"} Expert
-                    .level-bar
-                      .level-bar-inner{"data-level" => "95%"}
-                  .item
-                    %h3.level-title
-                      Ruby on Rails
-                      %span.level-label{:title => "My cup of Tea."} Expert
-                    .level-bar
-                      .level-bar-inner{"data-level" => "95%"}
-                    / //level-bar
-                  / //item
-                  .item
-                    %h3.level-title
-                      R
-                      %span.level-label{"data-animation" => "true", "data-placement" => "left", "data-toggle" => "tooltip", :title => "Used R in my various courses."} Advanced
-                    .level-bar
-                      .level-bar-inner{"data-level" => "75%"}
-                  .item
-                    %h3.level-title
-                      Java
-                      %span.level-label{"data-animation" => "true", "data-placement" => "left", "data-toggle" => "tooltip", :title => "I use this for Competetive Coding"} Pro
-                    .level-bar
-                      .level-bar-inner{"data-level" => "85%"}
-                  .item
-                    %h3.level-title
-                      AngularJS
-                      %span.level-label{"data-animation" => "true", "data-placement" => "left", "data-toggle" => "tooltip", :title => "Made a few Projects using AngularJS"} Advanced
-                    .level-bar
-                      .level-bar-inner{"data-level" => "75%"}
-                  .item
-                    %h3.level-title
-                      Node.js
-                      %span.level-label{"data-animation" => "true", "data-placement" => "left", "data-toggle" => "tooltip", :title => "Currently using node.js in a project."} Advanced
-                    .level-bar
-                      .level-bar-inner{"data-level" => "75%"}
-                  .item
-                    %h3.level-title
-                      Javascript &amp; jQuery
-                      %span.level-label{:title => "Worked with Javascript and JQuery during my Internship."} Expert
-                    .level-bar
-                      .level-bar-inner{"data-level" => "90%"}
-                    / //level-bar
-                  / //item
-                  .item
-                    %h3.level-title
-                      HTML5, CSS3, SCSS &amp; CoffeeScript
-                      %span.level-label Expert
-                    .level-bar
-                      .level-bar-inner{"data-level" => "96%"}
-          %aside.education.aside.section
-            .section-inner
-              %h2.heading Education
-              .content
-                .item
-                  %h3.title
-                    %i.fa.fa-graduation-cap
-                    M.S in Computer Science
-                  %h4.university
-                    Syracuse University
-                    %span.year (2018-2020)
-                / //item
-                .item
-                  %h3.title
-                    %i.fa.fa-graduation-cap
-                    B.E in Information Technology
-                  %h4.university
-                    University of Mumbai
-                    %span.year (2012-2016)
-          %aside.languages.aside.section
-            .section-inner
-              %h2.heading Languages
-              .content
-                %ul.list-unstyled
-                  %li.item
-                    %span.title
-                      %strong English:
-                    %span.level
-                      Professional Proficiency
-                      %br.visible-sm.visible-xs/
-                      %i.fa.fa-star
-                      %i.fa.fa-star
-                      %i.fa.fa-star
-                      %i.fa.fa-star
-                      %i.fa.fa-star-half
-                  %li.item
-                    %span.title
-                      %strong Hindi:
-                    %span.level
-                      Native Speaker
-                      %br.visible-xs/
-                      %i.fa.fa-star
-                      %i.fa.fa-star
-                      %i.fa.fa-star
-                      %i.fa.fa-star
-                      %i.fa.fa-star
-                  %li.item
-                    %span.title
-                      %strong Spanish:
-                    %span.level
-                      Elementary Proficiency
-                      %br.visible-sm.visible-xs/
-                      %i.fa.fa-star
-                      %i.fa.fa-star
-                      %i.fa.fa-star-half
-          %aside.list.conferences.aside.section
-            .section-inner
-              %h2.heading Awards and Leadership
-              .content
-                %ul.list-unstyled
-                  %li
-                    %i.fa.fa-calendar
-                    Mentored and supervised 4 junior developers across multiple projects.
-                    %span
-                      %a{:href => "#"} (Mirraw)
-                  %li
-                    %i.fa.fa-calendar
-                    Won Web Development Competition (Weave The Web) Organized by V.E.S Institute of Technology.
-                    %span
-                      %a{:href => "#"} (Mumbai)
-                  %li
-                    %i.fa.fa-calendar
-                    Organized Java Workshop, Cloud Computing Seminar during Bachelor’s Degree.
-                    %span
-                      %a{:href => "#"} (V.I.T Mumbai)
-    / ******FOOTER******
-    / Javascript
-    =javascript_include_tag  'jquery-1.11.1.min.js'
-    =javascript_include_tag  'jquery-migrate-1.2.1.min.js'
-    =javascript_include_tag  'bootstrap.min.js'
-    =javascript_include_tag  'jquery.rss.min.js'
-    / github activity plugin
-    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js", :type => "text/javascript"}
-    =javascript_include_tag  'github-activity.js'
+      %section.github.section
+        .section-inner
+          %h2.heading My GitHub
+          #ghfeed.ghfeed
+    .secondary.col-md-4.col-sm-12.col-xs-12
+      %aside.education.aside.section
+        .section-inner
+          %h2.heading Education
+          .content
+            .item
+              %h3.title
+                %i.fa.fa-graduation-cap
+                M.S in Computer Science
+              %h4.university
+                Syracuse University | GPA: 3.6
+                %span.year  (2018-2020)
+            / //item
+            .item
+              %h3.title
+                %i.fa.fa-graduation-cap
+                B.E in Information Technology
+              %h4.university
+                University of Mumbai | GPA: 3.53
+                %span.year  (2012-2016)
+      %aside.info.aside.section
+        .section-inner
+          %h2.heading.sr-only Basic Information
+          .content
+            %ul.list-unstyled
+              %li
+                %i.fa.fa-map-marker
+                = succeed "Syracuse, NY " do
+                  %span.sr-only Location:
+              %li
+                %i.fa.fa-envelope-o
+                %span.sr-only Email:
+                %a{:href => "#"} sachavha@syr.edu
 
-    / custom js
-    =javascript_include_tag  'main.js'
+              %li
+                %i.fa.fa-link
+                %span.sr-only Resume:
+                %a{:href => "https://sumailsyr-my.sharepoint.com/:b:/r/personal/sachavha_syr_edu/Documents/portfolio/Resume.pdf?csf=1&e=QtEcw7"} Resume
+
+      %aside.skills.aside.section
+        .section-inner
+          %h2.heading Skills
+          .content
+            %p.intro
+            .skillset
+              -SKILLS.each do |skill|
+                .item-skill-tag
+                  %a.tag{:href => "#"} 
+                    =skill
+                /   %span.level-label{"data-animation" => "true", "data-placement" => "left", "data-toggle" => "tooltip", :title => "I use this ...well Everywhere!"} Expert
+                / .level-bar
+                /   .level-bar-inner{"data-level" => "95%"}
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} Ruby on Rails
+              /   /   %span.level-label{:title => "My cup of Tea."} Expert
+              /   / .level-bar
+              /   /   .level-bar-inner{"data-level" => "95%"}
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} Java
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} Javascript 
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} R
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} AngularJS
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} Node.js
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} CoffeeScript
+
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} jQuery
+
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} SCSS
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} CSS3
+              / .item-skill-tag
+              /   %a.tag{:href => "#"} HTML5
+
+
+      %aside.testimonials.aside.section
+        .section-inner
+          %h2.heading Testimonials
+          .content
+            .item
+              %blockquote.quote
+                %p
+                  %i.fa.fa-quote-left>
+                  Saurabh is an amazing software developer. His creative ideas and research skills are what sets him apart, He was trusted with many important projects because of this reason. He never turned down a challenging task and his work was always up to the mark. His knowledge and understanding of the concepts of Object Oriented Programming is remarkable, he also has very good problem-solving skill.
+              %p.source
+                %span.name Devilal Dheer
+                %br/
+                %span.title Technical Team Lead (Mirraw)
+            .item
+              %blockquote.quote
+                %p
+                  %i.fa.fa-quote-left>
+                  I had the opportunity of working with saurabh for 2 years at Mirraw. He started as a junior and i had to mentor him throughout his training period. I observed that he is such a quick learner and could easily juggle multiple projects. We could always trust him for coming up with a solution for any rare development feature as well. Trying out new technologies and his craving for learning new things are the two best qualities that stood out and impressed me particularly.
+              %p.source
+                %span.name Harshal Jaitpal
+                %br/
+                %span.title Software Developer (Mirraw)
+            .item
+              %blockquote.quote
+                %p
+                  %i.fa.fa-quote-left>
+                  Saurabh is hard working and has excellent web development skills. Inspite of being a fresher in the industry he was able to understand our system in a relatively short period of time and completed all his work diligently and on time. He also did a commendable work on javascript API's and UI.
+              %p.source
+                %span.name Dhanesh Kumar
+                %br/
+                %span.title Co-Founder & CTO at Kyte (YC S18)
+            %p
+              %a.more-link{:href => "https://www.linkedin.com/in/saurabh-chavhan/"}
+                %i.fa.fa-external-link
+                View on Linkedin
+
+
+      %aside.languages.aside.section
+        .section-inner
+          %h2.heading Languages
+          .content
+            %ul.list-unstyled
+              %li.item
+                %span.title
+                  %strong English:
+                %span.level
+                  Professional Proficiency
+                  %br.visible-sm.visible-xs/
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+              %li.item
+                %span.title
+                  %strong Hindi:
+                %span.level
+                  Native Speaker
+                  %br.visible-xs/
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+              %li.item
+                %span.title
+                  %strong Spanish:
+                %span.level
+                  Elementary Proficiency
+                  %br.visible-sm.visible-xs/
+                  %i.fa.fa-star
+                  %i.fa.fa-star
+                  %i.fa.fa-star-half
+      %aside.list.conferences.aside.section
+        .section-inner
+          %h2.heading Awards and Leadership
+          .content
+            %ul.list-unstyled
+              %li
+                %i.fa.fa-calendar
+                Mentored and supervised 4 junior developers across multiple projects.
+                %span
+                  %a{:href => "#"} (Mirraw)
+              %li
+                %i.fa.fa-calendar
+                Won Web Development Competition (Weave The Web) Organized by V.E.S Institute of Technology.
+                %span
+                  %a{:href => "#"} (Mumbai)
+              %li
+                %i.fa.fa-calendar
+                Organized Java Workshop, Cloud Computing Seminar during Bachelor’s Degree.
+                %span
+                  %a{:href => "#"} (V.I.T Mumbai)
+/ ******FOOTER******
+/ Javascript
+=javascript_include_tag  'jquery-1.11.1.min.js'
+=javascript_include_tag  'jquery-migrate-1.2.1.min.js'
+=javascript_include_tag  'bootstrap.min.js'
+=javascript_include_tag  'jquery.rss.min.js'
+/ github activity plugin
+%script{:src => "https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js", :type => "text/javascript"}
+=javascript_include_tag  'github-activity.js'
+
+/ custom js
+=javascript_include_tag  'main.js'

@@ -47,6 +47,8 @@ Rails.application.configure do
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
   config.log_level = :debug
+  config.static_cache_control = "public, s-maxage=#{1.days.to_i}, maxage=#{1.days.to_i}"
+
 
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
