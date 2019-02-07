@@ -1,2 +1,2 @@
-class SystemConstant < ActiveRecord::Base
-end
+# class SystemConstant < ActiveRecord::Base
+# end
