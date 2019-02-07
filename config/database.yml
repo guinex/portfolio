@@ -7,13 +7,13 @@
 default: &default
   adapter: postgresql
   encoding: utf8
-  database: portfolio
   pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
-  username: postgres
-  password: 123
   # prepared_statements: false
 development:
   <<: *default
+  database: portfolio
+  username: postgres
+  password: 123
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -23,6 +23,6 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: <%= ENV["DB_URL"] %>
 
 
