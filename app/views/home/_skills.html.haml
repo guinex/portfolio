@@ -1,0 +1,42 @@
+-section_name = _name
+-section_values = _values
+%aside.skills.aside.section
+  .section-inner
+    %h2.heading=section_name
+    .content
+      %p.intro
+      .skillset
+        -section_values.each do |skill|
+          .item-skill-tag
+            %a.tag{:href => "#"} 
+              =skill
+          /   %span.level-label{"data-animation" => "true", "data-placement" => "left", "data-toggle" => "tooltip", :title => "I use this ...well Everywhere!"} Expert
+          / .level-bar
+          /   .level-bar-inner{"data-level" => "95%"}
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} Ruby on Rails
+        /   /   %span.level-label{:title => "My cup of Tea."} Expert
+        /   / .level-bar
+        /   /   .level-bar-inner{"data-level" => "95%"}
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} Java
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} Javascript 
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} R
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} AngularJS
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} Node.js
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} CoffeeScript
+
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} jQuery
+
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} SCSS
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} CSS3
+        / .item-skill-tag
+        /   %a.tag{:href => "#"} HTML5
