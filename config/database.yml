@@ -11,9 +11,13 @@ default: &default
   # prepared_statements: false
 development:
   <<: *default
-  database: portfolio
-  username: postgres
+  user: postgres
   password: 123
+  port: 5432
+  host: localhost
+  pool: 5
+  timeout: 5000
+  database: portfolio
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

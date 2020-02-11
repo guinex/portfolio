@@ -4,8 +4,8 @@
 		%meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
 		%meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
 		%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-		-description = @intro.description + " " + @education.description + " " + @employment.description + " " + @skills.description
-		-keywords = @intro.keyword + " "+ @education.keyword + " "+ @employment.keyword + " "+ @skills.keyword
+		-description = @intro.description.to_s + " " + @education.description.to_s + " " + @employment.description.to_s + " " + @skills.description.to_s
+		-keywords = @intro.keyword.to_s + " "+ @education.keyword.to_s + " "+ @employment.keyword.to_s + " "+ @skills.keyword.to_s
 		%meta{:content => "#{description}", :name => "description"}/
 		%meta{:content => "#{keywords}", :name => "keywords"}/
 		%meta{:content => "Saurabh Chavhan", :name => "author"}/

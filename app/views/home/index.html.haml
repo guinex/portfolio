@@ -34,25 +34,28 @@
           %h2.heading About Me!
           .content
             %p Graduate student at Syracuse University pursuing masters in Computer Science.
-            %p I am actively looking for internship opportunities in the field of Computer Science. I am also an experienced Software Developer with a demonstrated history of working in the E-Commerce industry with strong engineering professional skills in Python, Ruby on Rails, Java, R, Git, Javascript. Quick learner, Self-motivated, Team player.
+            %p Software Engineer with 2.5+ years of experience working on multiple technologies like C, Python, Ruby, Java, Git, Javascript. I have also worked as head of the CRO team where we worked towards optimizing e-commerce conversion ratio and revenue growth. I like to build and design products and algorithms that are optimized, cost-effective and maintainable.
       %section.about.section
         .section-inner
           %h2.heading Courses
           .content
             %strong Syracuse University
             %p
+              %span.label-course Operating System
+              %span.label-course Artificial neural Networks
+              %span.label-course Analytical Data Mining
               %span.label-course Evolutionary Machine Learning
               %span.label-course Internet Security
               %span.label-course Social Media and Data Mining
               %span.label-course Design and Analysis of Algorithm
               %span.label-course Structural Programming and Formal Methods
-          %strong Udemy
-          %p
-            %span.label-course
-              ='Machine Learning A-Z™: Hands-On Python & R In Data Science'
-            %p
-            %span.label-course
-              ='Deep Learning A-Z™: Hands-On Artificial Neural Networks'
+          / %strong Udemy
+          / %p
+          /   %span.label-course
+          /     ='Machine Learning A-Z™: Hands-On Python & R In Data Science'
+          /   %p
+          /   %span.label-course
+          /     ='Deep Learning A-Z™: Hands-On Artificial Neural Networks'
 
 
       %section.experience.section
@@ -61,9 +64,22 @@
           .content
             .item
               %h3.title
+                Software Engineer Intern -
+                %span.place
+                  %a{:href => "https://www.procurem.io/", target: "_blank"} Procurem.io
+                %span.year (May 2019 - Present)
+              %p Working as an intern I have build and designed inventory management system that keeps track of all the parts, purchase orders, sales orders with availability and shipping details of their line items. System also maintains account ledger and sales information.
+
+              %p Procurem is another project that I worked on. In this project I designed and restructured backend and API framework to improvise response time from 1.2s to 400ms.
+              Integrated Stripe so customers can select a plan for API usage. Customers can add credit cards via procurem.io page or   select from multiple cards.
+              Created an alert and notification system to improvise data analytics for customers.
+              Built a survey module for organizations, suppliers, and customers.
+
+            .item
+              %h3.title
                 Software Engineer -
                 %span.place
-                  %a{:href => "#"} Mirraw
+                  %a{:href => "https://www.mirraw.com/", target: "_blank"} Mirraw
                 %span.year (June 2016 - June 2018)
               %p Designed a customized A/B Testing framework (like Google Optimize) for producing various versions of product catalog page this increased average session duration time by 13% and E-Commerce conversion rate by 2%.
               %p Implemented backend APIs to integrate PayPal (and PayPal Express checkout) and RazorPay payment gateways, which increased payment success rate by 24% and reduced error rates by distributing user traffic between 2 payment gateways.
@@ -85,18 +101,42 @@
         .section-inner
           %h2.heading Projects
           .content
-            .item
+            .item{style: "margin-top: 60px;"}
+              %h3.title
+                %a{:href => "#"} Stylometry-Prediction
+                %span.label.label-theme Open Source
+              %p.summary Authorship prediction by building a 2-D convolutional neural network and associate errors to the author of the code. Used token based N-gram approach to detect signature from the source code. Second part of the project identifies an author with known errors. View github for more information.
+              %a.more-link{:href => "https://guinex.github.io/Stylometry-Prediction/", :target => "_blank", style: "float: left; margin-right: 20px; "}
+                %i.fa.fa-external-link
+                Read More
+              %a.more-link{:href => "https://github.com/guinex/Stylometry-Prediction", :target => "_blank", style: "float:left;"}
+                %i.fa.fa-external-link
+                View on GitHub
+
+            .item{style: "margin-top: 60px;"}
+              %h3.title
+                %a{:href => "#"} FirePong
+                %span.label.label-theme Open Source
+              %p.summary Trained an Artificially Intelligent Opponent for Ping Pong using Genetic Algorithm, Nature Inspired Firefly algorithms and compared results.
+              %a.more-link{:href => "https://guinex.github.io/FirePong/", :target => "_blank", style: "float: left; margin-right: 20px; "}
+                %i.fa.fa-external-link
+                Read More
+              %a.more-link{:href => "https://github.com/guinex/FirePong/", :target => "_blank", style: "float: left; margin-right: 20px; "}
+                %i.fa.fa-external-link
+                View on GitHub
+
+            .item{style: "margin-top: 60px;"}
               %h3.title
                 %a{:href => "https://github.com/guinex/twitter-analytics"} Follower Prediction Twitter
                 %span.label.label-theme Open Source
               %p.summary System predicts whether a new twitter handle will follow certian celebrities. Data consists of 10 celebrities, their 100 recent tweets and ids of all followers, and 100 recent tweets followers. Prediction is done in 2 ways, first is using the logistic regression we check if followers of the celebrities (who fall are in same category) are more likely to follow other celebrities (of that same category) or not. Second is to check whether a new twitter handle share the same interest as the celebrities or not.
               %p Used logistic regression to check whether a new Twitter handle will follow the selected celebrities or not.
               %p Generated a classification model using Multinomial Naive Bayes to check if the new twitter handle has the same interest as the celebrities. Sample data provided to this model was top 100 recent tweets of the celebrities, of their followers and tweets of the new twitter handle.
-              %p
-                %a.more-link{:href => "https://github.com/guinex/twitter-analytics", :target => "_blank"}
-                  %i.fa.fa-external-link
-                  View on Github
-            .item
+
+              %a.more-link{:href => "https://github.com/guinex/twitter-analytics", :target => "_blank"}
+                %i.fa.fa-external-link
+                View on Github
+            .item{style: "margin-top: 60px;"}
               %h3.title
                 %a{:href => "#"} Digital Checkout System for Shopping Marts
                 %span.label.label-theme.archived Archived
@@ -104,15 +144,10 @@
                 Digitalized the process purchasing products from marts which save customer`s time and makes the purchasing process easy. It is a Mobile application in PhoneGap using HTML, CSS, and JavaScript, using the application user can scan products to add it in a cart and can pay invoices without standing in the queue.
               %p Applied Market Basket Analysis to generate recommendations for users.
               %p Predicted purchase pattern of customers by Data Mining the user-generated data.
-              %p
-                %a.more-link{:href => "https://github.com/guinex/one-touch-billing-system", :target => "_blank"}
-                  %i.fa.fa-external-link
-                  View on GitHub
-            .item
-              %h3.title
-                %a{:href => "#"} LineUp
-                %span.label.label-theme.in-progress In Progress
-              %p.summary A Time Management Tool that allows you to create, track, schedule, assign tasks. Frontend is being build using AngularJS and backend is being build using Node.js
+              %a.more-link{:href => "https://github.com/guinex/one-touch-billing-system", :target => "_blank"}
+                %i.fa.fa-external-link
+                View on GitHub
+
 
 
       %section.github.section

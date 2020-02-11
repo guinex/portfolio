@@ -5,9 +5,9 @@ class ApplicationController < ActionController::Base
 
   def get_seo_data
   	seo = Seo.list
-  	@intro = seo.select{|s| s.name == 'introduction'}[0]
-  	@employment = seo.select{|s| s.name == 'employment'}[0]
-  	@skills = seo.select{|s| s.name == 'skills'}[0]
-  	@education= seo.select{|s| s.name == 'education'}[0]
+  	@intro = seo.select{|s| s.name == 'introduction'}[0] || Seo.new
+  	@employment = seo.select{|s| s.name == 'employment'}[0] || Seo.new
+  	@skills = seo.select{|s| s.name == 'skills'}[0] || Seo.new
+  	@education= seo.select{|s| s.name == 'education'}[0] || Seo.new
   end
 end
