@@ -572,9 +572,9 @@ a{
 }
 
 .tag {
-  background: #778492;
-  border-radius: 3px 0 0 3px;
-  color: white;
+  background: #dae3e7;
+  border-radius: 7px 7px 7px 7px;
+  color: #2d2727;
   display: inline-block;
   height: 26px;
   line-height: 23px;
@@ -586,7 +586,7 @@ a{
 }
 
 
-.tag::after {
+/*.tag::after {
   background: #fff;
   border-bottom: 13px solid transparent;
   border-left: 10px solid #778492;
@@ -595,9 +595,9 @@ a{
   position: absolute;
   right: 0;
   top: 0;
-}
+}*/
 
-.tag::before {
+/*.tag::before {
   background: #fff;
   border-radius: 10px;
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
@@ -608,16 +608,16 @@ a{
   width: 6px;
   top: 10px;
 }
-
-.tag:hover {
+*/
+/*.tag:hover {
   background-color: crimson;
   color: white;
 }
-
-.tag:hover::after {
+*/
+/*.tag:hover::after {
    border-left-color: crimson; 
 }
-/* Small devices (tablets, 768px and up) */
+*//* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */

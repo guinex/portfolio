@@ -12,7 +12,7 @@
 %header.header
   .container
     / %img.profile-image.img-responsive.pull-left{:alt => "Saurabh Chavhan", :src => "../../assets/images/profile.png"}/
-    =image_tag "profile.png", class: 'profile-image img-responsive pull-left'
+    =image_tag "profile3.png", class: 'profile-image img-responsive pull-left'
     .profile-content.pull-left
       %h1.name Saurabh Chavhan
       %h2.desc Graduate Student at Syracuse University
@@ -26,6 +26,10 @@
         %li
           %a{:href => "https://github.com/guinex"}
             %i.fa.fa-github-alt
+        / %li
+        /   %a{:href => "https://www.facebook.com/guinex18"}
+        /     %i.fa.fa-facebook
+
 .container.sections-wrapper
   .row
     .primary.col-md-8.col-sm-12.col-xs-12
@@ -34,21 +38,27 @@
           %h2.heading About Me!
           .content
             %p Graduate student at Syracuse University pursuing masters in Computer Science.
-            %p Software Engineer with 2.5+ years of experience working on multiple technologies like C, Python, Ruby, Java, Git, Javascript. I have also worked as head of the CRO team where we worked towards optimizing e-commerce conversion ratio and revenue growth. I like to build and design products and algorithms that are optimized, cost-effective and maintainable.
-      %section.about.section
-        .section-inner
-          %h2.heading Courses
-          .content
-            %strong Syracuse University
+            %p 
+              I have been a Software Engineer for over 2.5+ years during which I have worked with 3 companies. Currently, I am working with Chess-group (Procurem.io) as a part of Co-op at Syracuse University, where I handle 2 major projects Chess-Erp, Inventory System and Procurem, Supply Management framework. Before this, I was working with Mirraw, one of the largest e-Commerce business in India. My core responsibilities were to design Rest-APIs, maintaining and optimizing legacy codebase, and developing new features for the marketing and sales team. As a Software Engineer L1, at Mirraw I have been a part of teams like Growth team and Marketing Dev team. But the most challenging experience was working as the head of the CRO team where we worked towards optimizing e-commerce conversion ratio and revenue growth. It was during this time I worked on the most impressive projects of my career, like the A/B testing framework, Dynamic Pricing, and Reverse Image Search.
             %p
-              %span.label-course Operating System
-              %span.label-course Artificial neural Networks
-              %span.label-course Analytical Data Mining
-              %span.label-course Evolutionary Machine Learning
-              %span.label-course Internet Security
-              %span.label-course Social Media and Data Mining
-              %span.label-course Design and Analysis of Algorithm
-              %span.label-course Structural Programming and Formal Methods
+              I have also worked in an IIT-Bombay startup as an Intern. I am into new technology since then and I cannot remember a time when I wasn`t coding in my free time and if I was not, then I was in front of my Xbox.
+            %p
+              I am dedicatedly trying to learn new things in the field of Artificial Intelligence, Cyber Security, Data Mining which I believe would be a great addition to my skill-set. I am actively looking for opportunities as a Full-Time Software Engineer where I can demonstrate my skills and learn at the time same time. Please feel free to contact me.
+          / %section.about.section
+          /   .section-inner
+          /     %h2.heading Courses
+          /     .content
+          /       %strong Syracuse University
+          /       %p
+          /         %span.label-course Operating System
+          /         %span.label-course Artificial neural Networks
+          /         %span.label-course Analytical Data Mining
+          /         %span.label-course Evolutionary Machine Learning
+          /         %span.label-course Internet Security
+          /         %span.label-course Social Media and Data Mining
+          /         %span.label-course Design and Analysis of Algorithm
+          /         %span.label-course Structural Programming and Formal Methods
+          /         %span.label-course Database Management System
           / %strong Udemy
           / %p
           /   %span.label-course
@@ -81,13 +91,18 @@
                 %span.place
                   %a{:href => "https://www.mirraw.com/", target: "_blank"} Mirraw
                 %span.year (June 2016 - June 2018)
-              %p Designed a customized A/B Testing framework (like Google Optimize) for producing various versions of product catalog page this increased average session duration time by 13% and E-Commerce conversion rate by 2%.
-              %p Implemented backend APIs to integrate PayPal (and PayPal Express checkout) and RazorPay payment gateways, which increased payment success rate by 24% and reduced error rates by distributing user traffic between 2 payment gateways.
-              %p Designed and Implemented a survey system to estimate the Net Promoter Score, which helped in gathering customer feedback and calculating the Order Defect Rate to improve stitching, delivery, quality of products.
-              %p Developed Reverse Image Search Algorithm in Ruby where similar products with different keywords can be identified using images, this feature helped in identifying over 70,000 products as duplicate inventory.
-              %p Added functionality of bulk insert on top of delayed job active record to reduce the DB write time from 1200ms to 400ms.
-              %p Collaborated with a developer in Dynamic Pricing Project that helps to change price of a product in different regions according to demand, this ensured a stable revenue growth.
-            / //item
+              %p Worked with development team of 20 members to create and integrate highly optimized solutions by following agile, test-driven development methodology.
+              %p Collaborated in team-oriented environments, working cohesively and successfully with multiple individuals in projects related to revenue growth, marketing, and customer retention.
+              %p Initiated efforts to migrate legacy applications to Rails 4 platform.
+              %p Designed software interfaces that proved user-friendly and simplified overall management.
+              %p Optimized system performance by making proactive adjustments and resolving bugs.
+              %p Participated in team meetings with Team Lead and Project Managers and provided input on expected deadlines, designs, and enhancements.
+              %p Implemented new payment APIs for company-wide deployment, including PayPal (and PayPal Express checkout) and RazorPay.
+              %p Delivered Reverse Image Search Algorithm in Ruby consistent with the roadmap, release plan milestones and key performance indicators, this feature helped in identifying over 70,000 products as duplicate inventory.
+              %p For cost-saving and conversion rate optimization designed customized A/B Testing framework (like Google Optimize) for producing various versions of product catalog page, increasing average session duration time by 13% and E-Commerce conversion rate by 2%.
+              %p Implemented a survey system to estimate the Net Promoter Score, project helped in gathering customer feedback and calculating the Order Defect Rate to improve stitching, delivery, quality of products.
+              %p Implemented Mirraw Wallet, an online wallet for website users which can be used to give cash back, loyalty points, sign-up bonus, referral points.
+              %p Reduced the load time of pages with intense user activity by reducing Database queries and js rendering with improved code quality.
             .item
               %h3.title
                 Web Developer Intern -
@@ -186,14 +201,15 @@
               %li
                 %i.fa.fa-envelope-o
                 %span.sr-only Email:
-                %a{:href => "#"} sachavha@syr.edu
+                %a{href: "mailto:sachavha@syr.edu?body = Hello Saurabh,"} sachavha@syr.edu
 
               %li
                 %i.fa.fa-link
-                %span.sr-only Resume:
-                %a{:href => "#{ENV['PORTFOLIO_URL']}"} Resume
+                %span.sr-only View Resume:
+                %a{:href => "#{ENV['PORTFOLIO_URL']}"} View Resume
 
       =render partial: 'skills', locals:{_values: SKILLS, _name: 'Skills'}
+      =render partial: 'skills', locals:{_values: COURSES, _name: 'Courses'}
       =render partial: 'skills', locals:{_values: TECHNOLOGIES, _name: 'Technologies'}
 
       %aside.testimonials.aside.section
@@ -233,42 +249,42 @@
                 View on Linkedin
 
 
-      %aside.languages.aside.section
-        .section-inner
-          %h2.heading Languages
-          .content
-            %ul.list-unstyled
-              %li.item
-                %span.title
-                  %strong English:
-                %span.level
-                  Professional Proficiency
-                  %br.visible-sm.visible-xs/
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-              %li.item
-                %span.title
-                  %strong Hindi:
-                %span.level
-                  Native Speaker
-                  %br.visible-xs/
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-              %li.item
-                %span.title
-                  %strong Spanish:
-                %span.level
-                  Elementary Proficiency
-                  %br.visible-sm.visible-xs/
-                  %i.fa.fa-star
-                  %i.fa.fa-star
-                  %i.fa.fa-star-half
+      / %aside.languages.aside.section
+      /   .section-inner
+      /     %h2.heading Languages
+      /     .content
+      /       %ul.list-unstyled
+      /         %li.item
+      /           %span.title
+      /             %strong English:
+      /           %span.level
+      /             Professional Proficiency
+      /             %br.visible-sm.visible-xs/
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /         %li.item
+      /           %span.title
+      /             %strong Hindi:
+      /           %span.level
+      /             Native Speaker
+      /             %br.visible-xs/
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /         %li.item
+      /           %span.title
+      /             %strong Spanish:
+      /           %span.level
+      /             Elementary Proficiency
+      /             %br.visible-sm.visible-xs/
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star
+      /             %i.fa.fa-star-half
       %aside.list.conferences.aside.section
         .section-inner
           %h2.heading Awards and Leadership
