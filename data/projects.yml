@@ -1,0 +1,105 @@
+Follower-Prediction-Twitter: 
+  position: 5
+  tag: Numpy, Python
+  github_link: https://www.github.com/guinex/twitter-analytics
+  year: December 2019
+  group: datascience
+  description: [
+    {p: '• System predicts whether a new twitter handle will follow certian celebrities. Data consists of 10 celebrities, their 100 recent tweets and ids of all followers, and 100 recent tweets followers.'},
+    {p: '• Prediction is done in 2 ways, first is using the logistic regression we check if followers of the celebrities (who fall are in same category) are more likely to follow other celebrities (of that same category) or not. Second is to check whether a new twitter handle share the same interest as the celebrities or not.'},
+    {p: '• Used logistic regression to check whether a new Twitter handle will follow the selected celebrities or not.'},
+    {p: '• Generated a classification model using Multinomial Naive Bayes to check if the new twitter handle has the same interest as the celebrities. Sample data provided to this model was top 100 recent tweets of the celebrities, of their followers and tweets of the new twitter handle.'
+      },    
+    {p: '• ﻿Project has 2 folders'}, 
+    {p: 'Bokeh:', 
+        d: ['* This contains python bokeh application file main.py', 
+            '* Command to run: bokeh serve --show main.py',
+            '* Select the celebrity using the dropdown menu',
+            '* Enter a twitter handle to check the probability.',
+            '* twitterData.txt for the api keys',
+            'Mining:',
+            '* user_tweets.csv',
+            '* followers_censhaw.csv',
+            '* followers_cortez.csv',
+            '* Locations.csv',
+            '* followers_cortez_analysis.csv',
+            '* Followers_crenshaw_analysis.csv',
+            '* Python notebook, mining.ipynb- follow the instructions to generate new csv`s. ',
+            '* Python notebook shows the implementation of heat-map.'
+          ]
+      }
+  ]
+  short_description: 'Multinomial Naive Bayes ML-Algorithm to predict the followers of the Twitter handles'
+
+Stylometry-Prediction: 
+  position: 2
+  tag: CNN, Keras, Sklearn, Python
+  github_io_link: https://www.guinex.github.io/Stylometry-Prediction/
+  github_link: https://www.github.com/guinex/Stylometry-Prediction
+  year: December 2019
+  group: datascience
+  description: [
+    {p: '• Authorship prediction by building a 2-D convolutional neural network and associate errors to the author of the code.'},
+    {p: '• Used token based N-gram approach to detect signature from the source code. '},
+    {p: '• Second part of the project identifies an author with known errors.'}
+
+  ]
+  short_description: ' Authorship prediction for source codes by a 2-D Convolutional Neural Network and associate errors to the author of the code.'
+
+FirePong: 
+  position: 4
+  tag: Machine Learning, FireFly, Genetic Algorithm, Python
+  group: datascience
+  github_io_link: https://www.guinex.github.io/FirePong/
+  github_link: https://www.github.com/guinex/FirePong
+  year: December 2019
+  description: [
+    {p: '• '}
+  ]
+  short_description: 'An Artificially Intelligent Opponent for Ping Pong game using nature inspired Genetic Algorithm and Firefly Algorithm and result comparison.'
+
+Digital-Checkout-for-Marts: 
+  position: 6
+  tag: JavaScript, HTML, CSS, PhoneGap, BaaS
+  group: web
+  github_link: http://www.github.com/guinex/one-touch-billing-system
+  year: December 2019
+  description: [
+    {p: '• Digitalized the process purchasing products from marts which save customer`s time and makes the purchasing process easy. It is a Mobile application in PhoneGap using HTML, CSS, and JavaScript, using the application user can scan products to add it in a cart and can pay invoices without standing in the queue.'},
+    {p: '• Applied Market Basket Analysis to generate recommendations for users.'},
+    {p: '• Predicted purchase pattern of customers by Data Mining the user-generated data.'}
+  ]
+  short_description: 'It is a Mobile application in PhoneGap using HTML and JavaScript, using the App user can scan products to add it in a cart and can pay invoices without standing in the queue.'
+
+FormJs: 
+  position: 1
+  tag: Node, AngularJs, TypeScript, MongoDB, AWS Elastic Beanstalk, AWS-S3
+  group: web
+  github_link: http://www.github.com/guinex/FormJs
+  year: October 2020
+  description: [
+    {p: '• A MEAN stack Application. APIs are build in Node and front-end in AngularJs'},
+    {p: '• This is hosted on AWS elasticbeanstalk.', d: [
+      '* API url: http://postit-env-2.eba-pcspfqm3.us-east-2.elasticbeanstalk.com/api/posts',
+      '* App Url: http://postitmean.s3-website.us-east-2.amazonaws.com/' 
+    ]},
+    {p: '• Using this application user can create posts and share them with classmates and friends.'},
+    {p: '• Additional functionalities for adding classrooms and assignments will be added soon.'},
+    {p: '• A post can contain title, images and content. Posts are visible to everyone but edit option is only available to the creator of post.'}
+  ]
+  short_description: 'A forum application for students and teachers. Using this application, classrooms can be created to post queries
+and share information related to coursework'
+
+Portfolio: 
+  position: 3
+  tag: Ruby on Rails 6.0, Heroku, JavaScript
+  group: web
+  github_link: http://www.github.com/guinex/portfolio
+  year: May 2019
+  description: [
+    {p: '• Application is created in Ruby on Rails 6.0'},
+    {p: '• Its deployed on Heroku: https://saurabh-chavhan.herokuapp.com'},
+    {p: '• This app is always updated with my recent achievements and certifications.'}
+  ]
+  short_description: 'Its the very application you are viewing. Its always up-to-date with my recent achievements.'
+

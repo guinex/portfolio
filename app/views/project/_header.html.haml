@@ -1,0 +1,12 @@
+%h3.title
+	= project
+.tags
+	-if details[:tag].present?
+		-details[:tag].split(',').each do |tag|
+			%span.tag-name
+				="#{tag} | "
+%br
+-if details[:github_link].present?
+	%a.more-link{href: details[:github_link], :target => "_blank"}
+		%i.fa.fa-external-link
+		View on GitHub

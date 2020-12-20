@@ -1,4 +1,4 @@
-class CreateSystemConstants < ActiveRecord::Migration
+class CreateSystemConstants < ActiveRecord::Migration[4.2]
   def change
     create_table :system_constants do |t|
     	t.string :name, null: false

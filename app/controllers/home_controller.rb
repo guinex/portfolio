@@ -1,5 +1,8 @@
 class HomeController < ApplicationController
-	before_action :get_seo_data
+	
+	include Projectable
+
 	def index
+		render layout: 'application'	
 	end
 end

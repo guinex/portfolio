@@ -1,4 +1,4 @@
-class CreateSeos < ActiveRecord::Migration
+class CreateSeos < ActiveRecord::Migration[4.2]
 	def change
 		create_table :seos do |t|
 			t.string :name, null: false

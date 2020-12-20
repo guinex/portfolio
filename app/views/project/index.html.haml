@@ -1,0 +1,64 @@
+:css
+	.projects{
+		margin-bottom: 1rem;
+	}
+	.project-border{
+		width: 0%;
+		height: 450px;
+		margin-right: 2rem; 
+		float: left;
+	}
+	.project-tiles{
+		width: 30%;
+		height: 450px;
+		overflow: hidden; 
+		float:left;
+		background-color: #fff;
+		margin-right: 2rem;
+		margin-bottom: 2rem;
+		webkit-flex: 1;
+		text-align: center;
+	}
+	.project-tiles:hover{
+		background-color: #fff;
+		box-shadow: 0.5px 1px 1px 1px;
+	}
+	.project-header{
+		color: #3a3939 !important;
+		font-weight: normal;
+		font-size: 20;
+		height: 200px;
+		padding: 1rem;
+	}
+	.project-summary{
+		height: 200px;
+		padding: 1rem;
+		margin-top: 5px;
+	}
+	.project-footer{
+		height: 30px;
+		padding: 1rem;
+		text-align: center;
+	}
+	.tag-name{
+		/ background-color: #9fdeb7;
+		padding: 2px;
+		margin-left: 1px;
+	}
+%section.projects.section
+	.section-inner
+		%h2.heading Projects
+		-@projects.sort_by{|k, v| v[:position]}.each_with_index do |projects, i|
+			-project = projects[0]
+			-detail = projects[1]
+			-if i%3 == 0
+				.project-border
+			.project-tiles
+				.project-header
+					= render partial: 'project/header', locals: {details: detail, project: project}
+				.project-summary
+					= render partial: 'project/summary', locals: {details: detail, short_version: true, project: project}					
+				.project-footer
+					= link_to request.url+'project/'+"#{project}", target: "_blank" do
+						%i.fa.fa-external-link
+							Read More

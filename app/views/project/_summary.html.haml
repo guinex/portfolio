@@ -1,0 +1,12 @@
+-if short_version
+	=details[:short_description]
+-else
+	-details[:description].each do |description|
+		-description.each do |key, value|
+			-if key == :p
+				%p= value
+			-if key == :d
+				-value.each do |v|
+					%p
+						&nbsp&nbsp&nbsp
+						=v

@@ -1,0 +1,28 @@
+= stylesheet_link_tag 'bootstrap.min.css'
+/= stylesheet_link_tag 'font-awesome.css'
+= stylesheet_link_tag 'github-activity.css'
+= stylesheet_link_tag 'styles.css'
+
+
+.container.sections-wrapper
+	.row
+		.primary.col-md-8.col-sm-12.col-xs-12
+			%section.projects.section
+				.section-inner
+					%h3.title
+						= @project_name  
+					.content
+						.item							
+							%span.year
+								= "#{@details[:year]}"
+							%hr
+							-if @details[:github_io_link].present?
+								= link_to @details[:github_io_link], :target => "_blank", style: "margin-right: 10px;" do
+									%span.label.label-theme
+										View on Github.io 
+							-if @details[:github_link].present?	
+								=link_to @details[:github_link], :target => "_blank" do
+									%span.label.label-theme
+										View Source Code on GitHub							
+						.item
+							=render partial: 'summary', locals: {details: @details, short_version: false}

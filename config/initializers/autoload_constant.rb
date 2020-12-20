@@ -14,12 +14,9 @@ COURSES = if (skills = SystemConstant.where(name: 'courses', autoload: true).fir
 		else
 			[]
 		end
-# SystemConstant.where(name: 'courses', autoload: true).first_or_create(value: "Operating System,
-# Artificial neural Networks,
-# Analytical Data Mining,
-# Evolutionary Machine Learning,
-# Internet Security,
-# Social Media and Data Mining,
-# Design and Analysis of Algorithm,
-# Structural Programming and Formal Methods,
-# Database Management System")
+PROJECT_DETAIL_PATH = if File.exist?(Rails.root.join('data', 'projects.yml')) 
+		File.join(Rails.root.join('data', 'projects.yml'))
+	else
+		""
+	end	
+# SystemConstant.where(name: 'courses', autoload: true).first_or_create(value: "Operating System,Artificial neural Networks,Analytical Data Mining,Evolutionary Machine Learning,Internet Security,Social Media and Data Mining,Design and Analysis of Algorithm,Structural Programming and Formal Methods,Database Management System")
