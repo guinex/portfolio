@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby "2.5.8"
+ruby "2.4.5"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.1.0'
+gem 'rails', '~> 4.2.10'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # gem 'pg'
@@ -18,6 +18,7 @@ gem 'puma'
 gem 'haml'
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
+gem 'rails_12factor', group: :production
 # gem 'postgresql'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -31,7 +32,7 @@ gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', group: :doc
 gem 'newrelic_rpm'
-gem 'bigdecimal'
+gem 'bigdecimal', '1.3.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

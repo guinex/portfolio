@@ -15289,3 +15289,6 @@ For historical reasons, it may run twice, so it has to be idempotent.
 Check the "Autoloading and Reloading Constants" guide to learn more about how
 Rails autoloads and reloads.
  (called from <top (required)> at /mnt/c/Users/Guinex/Documents/Github/portfolio/config/environment.rb:5)
+  [1m[36mSystemConstant Load (0.3ms)[0m  [1mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = 1  ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[35mSystemConstant Load (0.5ms)[0m  SELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = 1  ORDER BY `system_constants`.`id` ASC LIMIT 1
+  [1m[36mSystemConstant Load (0.3ms)[0m  [1mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = 1  ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
