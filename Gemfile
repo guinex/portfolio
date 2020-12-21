@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
-ruby "2.7.2"
+ruby "2.5.8"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
+gem 'rails', '6.1.0'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # gem 'pg'
 gem 'mysql2'
+gem 'pg'
 # Use SCSS for stylesheets
-gem "haml"
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'

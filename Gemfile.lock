@@ -114,6 +114,7 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    pg (1.2.3)
     puma (5.1.1)
       nio4r (~> 2.0)
     rack (2.2.3)
@@ -206,8 +207,9 @@ DEPENDENCIES
   jquery-rails
   mysql2
   newrelic_rpm
+  pg
   puma
-  rails
+  rails (= 6.1.0)
   sass-rails
   sdoc
   spring
@@ -217,7 +219,7 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 RUBY VERSION
-   ruby 2.7.2p137
+   ruby 2.5.8p224
 
 BUNDLED WITH
    2.2.2

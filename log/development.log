@@ -15046,3 +15046,246 @@ Started GET "/fonts/fontawesome-webfont.ttf?v=4.1.0" for 127.0.0.1 at 2020-12-20
   
 ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
   
+  [1m[36mSystemConstant Load (1.1ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.7ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.7ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+DEPRECATION WARNING: Initialization autoloaded the constant SystemConstant.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload SystemConstant, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. This autoloaded constant would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <top (required)> at /mnt/c/Users/Guinex/Documents/Github/portfolio/config/environment.rb:5)
+  [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.6ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+DEPRECATION WARNING: Initialization autoloaded the constant SystemConstant.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload SystemConstant, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. This autoloaded constant would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <top (required)> at /mnt/c/Users/Guinex/Documents/Github/portfolio/config/environment.rb:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from rescue in block in <class:EnvironmentReport> at /home/guinex/.rvm/gems/ruby-2.7.2/gems/newrelic_rpm-6.14.0/lib/new_relic/environment_report.rb:82)
+Started GET "/" for ::1 at 2020-12-21 14:14:55 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  [1m[36mSeo Load (0.5ms)[0m  [1m[34mSELECT `seos`.* FROM `seos` WHERE `seos`.`activated` = TRUE[0m
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  Rendering project/index.html.haml
+  Rendered project/_header.html.haml (Duration: 9.2ms | Allocations: 4563)
+  Rendered project/_summary.html.haml (Duration: 7.7ms | Allocations: 2906)
+  Rendered project/_header.html.haml (Duration: 0.2ms | Allocations: 75)
+  Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+  Rendered project/_header.html.haml (Duration: 0.2ms | Allocations: 71)
+  Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+  Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 75)
+  Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+  Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 67)
+  Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+  Rendered project/_header.html.haml (Duration: 0.2ms | Allocations: 79)
+  Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 56)
+  Rendered project/index.html.haml (Duration: 65.0ms | Allocations: 16064)
+  Rendered home/_skills.html.haml (Duration: 10.9ms | Allocations: 5354)
+  Rendered home/_skills.html.haml (Duration: 0.1ms | Allocations: 54)
+  Rendered home/index.html.haml within layouts/application (Duration: 6570.5ms | Allocations: 211808)
+  Rendered layout layouts/application.html.haml (Duration: 9383.9ms | Allocations: 269499)
+Completed 200 OK in 9638ms (Views: 9463.5ms | ActiveRecord: 2.9ms | Allocations: 287652)
+
+
+Started GET "/assets/profile3-c155131c157ae4a327afba975cb03bae8f630d221b9809fda83f9e30222b76d2.png" for ::1 at 2020-12-21 14:15:05 -0500
+Started GET "/assets/github-activity.debug-015bb58ce5cc782546f71df71e7984ee8390f97776c6abfd8796013834566d20.css" for ::1 at 2020-12-21 14:15:05 -0500
+Started GET "/assets/styles.debug-b23cab8550fd181c15b757df2b7ae32f73c6bb9e0dd11d23fe414b36ef7c3e09.css" for ::1 at 2020-12-21 14:15:05 -0500
+Started GET "/fonts/fontawesome-webfont.woff?v=4.1.0" for ::1 at 2020-12-21 14:15:06 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.1.0" for ::1 at 2020-12-21 14:15:06 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+  [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+DEPRECATION WARNING: Initialization autoloaded the constant SystemConstant.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload SystemConstant, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. This autoloaded constant would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <top (required)> at /mnt/c/Users/Guinex/Documents/Github/portfolio/config/environment.rb:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from rescue in block in <class:EnvironmentReport> at /home/guinex/.rvm/gems/ruby-2.5.8/gems/newrelic_rpm-6.14.0/lib/new_relic/environment_report.rb:82)
+Started GET "/" for 127.0.0.1 at 2020-12-21 16:56:13 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  [1m[36mSeo Load (0.5ms)[0m  [1m[34mSELECT `seos`.* FROM `seos` WHERE `seos`.`activated` = TRUE[0m
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  Rendering project/index.html.haml
+  Rendered project/_header.html.haml (Duration: 8.3ms | Allocations: 4968)
+  Rendered project/_summary.html.haml (Duration: 7.7ms | Allocations: 3178)
+  Rendered project/_header.html.haml (Duration: 0.2ms | Allocations: 74)
+  Rendered project/_summary.html.haml (Duration: 0.2ms | Allocations: 55)
+  Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 70)
+  Rendered project/_summary.html.haml (Duration: 0.2ms | Allocations: 55)
+  Rendered project/_header.html.haml (Duration: 0.4ms | Allocations: 74)
+  Rendered project/_summary.html.haml (Duration: 0.2ms | Allocations: 55)
+  Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 66)
+  Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+  Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 78)
+  Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+  Rendered project/index.html.haml (Duration: 58.9ms | Allocations: 17537)
+  Rendered home/_skills.html.haml (Duration: 9.6ms | Allocations: 5896)
+  Rendered home/_skills.html.haml (Duration: 0.2ms | Allocations: 54)
+  Rendered home/index.html.haml within layouts/application (Duration: 7452.1ms | Allocations: 239944)
+  Rendered layout layouts/application.html.haml (Duration: 10158.2ms | Allocations: 317728)
+Completed 200 OK in 10378ms (Views: 10247.1ms | ActiveRecord: 3.7ms | Allocations: 332383)
+
+
+Started GET "/assets/github-activity.debug-015bb58ce5cc782546f71df71e7984ee8390f97776c6abfd8796013834566d20.css" for 127.0.0.1 at 2020-12-21 16:56:24 -0500
+Started GET "/assets/styles.debug-b23cab8550fd181c15b757df2b7ae32f73c6bb9e0dd11d23fe414b36ef7c3e09.css" for 127.0.0.1 at 2020-12-21 16:56:24 -0500
+Started GET "/fonts/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2020-12-21 16:56:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.1.0" for 127.0.0.1 at 2020-12-21 16:56:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+Started GET "/assets/images/favicon.ico" for 127.0.0.1 at 2020-12-21 16:56:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  
+  [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+DEPRECATION WARNING: Initialization autoloaded the constant SystemConstant.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload SystemConstant, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. This autoloaded constant would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <top (required)> at /mnt/c/Users/Guinex/Documents/Github/portfolio/config/environment.rb:5)
+  [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+DEPRECATION WARNING: Initialization autoloaded the constant SystemConstant.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload SystemConstant, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. This autoloaded constant would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <top (required)> at /mnt/c/Users/Guinex/Documents/Github/portfolio/config/environment.rb:5)
+  [1m[36mSystemConstant Load (0.7ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+DEPRECATION WARNING: Initialization autoloaded the constant SystemConstant.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload SystemConstant, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. This autoloaded constant would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <top (required)> at /mnt/c/Users/Guinex/Documents/Github/portfolio/config/environment.rb:5)

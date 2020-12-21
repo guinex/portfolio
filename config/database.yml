@@ -5,17 +5,18 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: mysql2
+  adapter: <%= ENV["DB_ADAPTER"] || 'mysql2' %> 
   encoding: utf8
   pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
-  # prepared_statements: false
-development:
-  <<: *default
   username: root
   password: password123
   port: 5432
   host: localhost
-  database: portfolio
+  database: <%= ENV["DB_URL"] || 'portfolio' %>
+
+  # prepared_statements: false
+development:
+  <<: *default
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -24,9 +25,6 @@ test:
   <<: *default
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: <%= ENV["DB_URL"] %>
-  pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
+  <<: *default
 
 

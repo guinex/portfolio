@@ -1,4 +1,4 @@
-class Project < ApplicationRecord
+class Project 
 	def initialize
 	end
 end

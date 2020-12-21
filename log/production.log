@@ -1,0 +1,230 @@
+D, [2020-12-21T14:22:14.949881 #347] DEBUG -- :   [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T14:22:14.961031 #347] DEBUG -- :   [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T14:22:14.962242 #347] DEBUG -- :   [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T14:33:32.465975 #13460] DEBUG -- :   [1m[36mSystemConstant Load (0.8ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T14:33:32.480818 #13460] DEBUG -- :   [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T14:33:32.482561 #13460] DEBUG -- :   [1m[36mSystemConstant Load (0.6ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:01:56.277228 #30329] DEBUG -- :   [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:01:56.292277 #30329] DEBUG -- :   [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:01:56.293502 #30329] DEBUG -- :   [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:03:23.852880 #30333] DEBUG -- :   [1m[36mSystemConstant Load (0.6ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:03:23.866712 #30333] DEBUG -- :   [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:03:23.867730 #30333] DEBUG -- :   [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:04:48.665124 #30337] DEBUG -- :   [1m[36mSystemConstant Load (0.7ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:04:48.677527 #30337] DEBUG -- :   [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:04:48.678651 #30337] DEBUG -- :   [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:05:42.020249 #30346] DEBUG -- :   [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:05:42.031794 #30346] DEBUG -- :   [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:05:42.033262 #30346] DEBUG -- :   [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+I, [2020-12-21T17:05:57.318932 #30346]  INFO -- : Started GET "/" for 127.0.0.1 at 2020-12-21 17:05:57 -0500
+I, [2020-12-21T17:05:57.352950 #30346]  INFO -- : Processing by HomeController#index as HTML
+D, [2020-12-21T17:05:57.375030 #30346] DEBUG -- :   [1m[36mSeo Load (0.5ms)[0m  [1m[34mSELECT `seos`.* FROM `seos` WHERE `seos`.`activated` = TRUE[0m
+D, [2020-12-21T17:05:57.421383 #30346] DEBUG -- :   Rendering layout layouts/application.html.haml
+D, [2020-12-21T17:05:57.422595 #30346] DEBUG -- :   Rendering home/index.html.haml within layouts/application
+I, [2020-12-21T17:06:10.949692 #30346]  INFO -- : Started GET "/" for 127.0.0.1 at 2020-12-21 17:06:10 -0500
+I, [2020-12-21T17:06:11.295707 #30346]  INFO -- : Processing by HomeController#index as HTML
+D, [2020-12-21T17:06:11.791991 #30346] DEBUG -- :   [1m[36mSeo Load (0.7ms)[0m  [1m[34mSELECT `seos`.* FROM `seos` WHERE `seos`.`activated` = TRUE[0m
+D, [2020-12-21T17:06:11.793718 #30346] DEBUG -- :   Rendering layout layouts/application.html.haml
+D, [2020-12-21T17:06:11.794389 #30346] DEBUG -- :   Rendering home/index.html.haml within layouts/application
+D, [2020-12-21T17:06:12.083513 #30346] DEBUG -- :   Rendering project/index.html.haml
+D, [2020-12-21T17:06:12.104864 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 5.2ms | Allocations: 3397)
+D, [2020-12-21T17:06:12.121294 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 4.2ms | Allocations: 1613)
+D, [2020-12-21T17:06:12.121910 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 74)
+D, [2020-12-21T17:06:12.122237 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:06:12.122616 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 70)
+D, [2020-12-21T17:06:12.122938 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:06:12.123595 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.2ms | Allocations: 74)
+D, [2020-12-21T17:06:12.124540 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.3ms | Allocations: 55)
+D, [2020-12-21T17:06:12.125816 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.3ms | Allocations: 66)
+D, [2020-12-21T17:06:12.126853 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:06:12.127686 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 78)
+D, [2020-12-21T17:06:12.128234 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+I, [2020-12-21T17:06:12.128778 #30346]  INFO -- :   Rendered project/index.html.haml (Duration: 45.0ms | Allocations: 12759)
+D, [2020-12-21T17:06:12.142280 #30346] DEBUG -- :   Rendered home/_skills.html.haml (Duration: 6.2ms | Allocations: 4528)
+D, [2020-12-21T17:06:12.142945 #30346] DEBUG -- :   Rendered home/_skills.html.haml (Duration: 0.1ms | Allocations: 54)
+I, [2020-12-21T17:06:12.144116 #30346]  INFO -- :   Rendered home/index.html.haml within layouts/application (Duration: 349.0ms | Allocations: 30283)
+I, [2020-12-21T17:06:12.154077 #30346]  INFO -- :   Rendered layout layouts/application.html.haml (Duration: 359.8ms | Allocations: 40373)
+I, [2020-12-21T17:06:12.154576 #30346]  INFO -- : Completed 200 OK in 765ms (Views: 361.0ms | ActiveRecord: 2.0ms | Allocations: 534777)
+I, [2020-12-21T17:06:13.087713 #30346]  INFO -- : Started GET "/assets/application-845caade1b19eb089d09daa2d64802b412ab0cc4c3de0f2042b5bf0acb69a3c9.css" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+I, [2020-12-21T17:06:13.210839 #30346]  INFO -- : Started GET "/assets/application-f1cd7705073510943047fb5e9e859ce4cb75ab22635096b0f2189e47c18ef325.js" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+I, [2020-12-21T17:06:13.213548 #30346]  INFO -- : Started GET "/assets/bootstrap.min-1bcd0c2d5e8d262d595b8735f9b4352da43f6ef67d0cd7952eb4b81cf394e4e8.css" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+F, [2020-12-21T17:06:13.287149 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/application-f1cd7705073510943047fb5e9e859ce4cb75ab22635096b0f2189e47c18ef325.js"):
+  
+F, [2020-12-21T17:06:13.297253 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min-1bcd0c2d5e8d262d595b8735f9b4352da43f6ef67d0cd7952eb4b81cf394e4e8.css"):
+  
+I, [2020-12-21T17:06:13.299793 #30346]  INFO -- : Started GET "/assets/jquery-migrate-1.2.1.min-17651be70caa3fe564b7a2a635dc6b23381f7a5c1ca418ff5d4369ad0d3a559c.js" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+I, [2020-12-21T17:06:13.311050 #30346]  INFO -- : Started GET "/assets/bootstrap.min-5f880dc324066b8eee625ec59011026181034bdb4e5bdfed27bd6b3e9bb354b6.js" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+F, [2020-12-21T17:06:13.332111 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-migrate-1.2.1.min-17651be70caa3fe564b7a2a635dc6b23381f7a5c1ca418ff5d4369ad0d3a559c.js"):
+  
+F, [2020-12-21T17:06:13.342966 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min-5f880dc324066b8eee625ec59011026181034bdb4e5bdfed27bd6b3e9bb354b6.js"):
+  
+I, [2020-12-21T17:06:13.348934 #30346]  INFO -- : Started GET "/assets/jquery.rss.min-69480f27540e2b3dbee414bfbc427f5d8b4dfdf46c17b3fc4409e52ac616c23c.js" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+I, [2020-12-21T17:06:13.357187 #30346]  INFO -- : Started GET "/assets/github-activity-debbf8fb401450473e9046f2f9a28679703ee8b810e532695a1dee0d80aa5bff.js" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+F, [2020-12-21T17:06:13.372862 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery.rss.min-69480f27540e2b3dbee414bfbc427f5d8b4dfdf46c17b3fc4409e52ac616c23c.js"):
+  
+F, [2020-12-21T17:06:13.377386 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/github-activity-debbf8fb401450473e9046f2f9a28679703ee8b810e532695a1dee0d80aa5bff.js"):
+  
+I, [2020-12-21T17:06:13.385335 #30346]  INFO -- : Started GET "/assets/main-a8f4328dba55e05c13a867765ef9067ad4cd757c6f7298d4775c6a889e706e52.js" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+F, [2020-12-21T17:06:13.447751 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/main-a8f4328dba55e05c13a867765ef9067ad4cd757c6f7298d4775c6a889e706e52.js"):
+  
+I, [2020-12-21T17:06:13.607062 #30346]  INFO -- : Started GET "/assets/github-activity-1a43376e6f39686e5135229f126309c671d7d611d510addb9c7a6e54f20d6a3c.css" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+I, [2020-12-21T17:06:13.608358 #30346]  INFO -- : Started GET "/assets/styles-f5cd84f158d8f59708d62928b2516a640f4478316103bfaafb2e26d9fd88ee0c.css" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+F, [2020-12-21T17:06:13.619456 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/github-activity-1a43376e6f39686e5135229f126309c671d7d611d510addb9c7a6e54f20d6a3c.css"):
+  
+F, [2020-12-21T17:06:13.620168 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/styles-f5cd84f158d8f59708d62928b2516a640f4478316103bfaafb2e26d9fd88ee0c.css"):
+  
+I, [2020-12-21T17:06:13.659521 #30346]  INFO -- : Started GET "/assets/jquery-1.11.1.min-ee0bfc3cd7fce18407a077d6dc748ce4077b127c2f5aacd5a979d1ac1d97ab56.js" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+F, [2020-12-21T17:06:13.689008 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-1.11.1.min-ee0bfc3cd7fce18407a077d6dc748ce4077b127c2f5aacd5a979d1ac1d97ab56.js"):
+  
+I, [2020-12-21T17:06:13.990315 #30346]  INFO -- : Started GET "/assets/jquery-migrate-1.2.1.min-17651be70caa3fe564b7a2a635dc6b23381f7a5c1ca418ff5d4369ad0d3a559c.js" for 127.0.0.1 at 2020-12-21 17:06:13 -0500
+F, [2020-12-21T17:06:14.220181 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-migrate-1.2.1.min-17651be70caa3fe564b7a2a635dc6b23381f7a5c1ca418ff5d4369ad0d3a559c.js"):
+  
+I, [2020-12-21T17:06:14.256625 #30346]  INFO -- : Started GET "/assets/bootstrap.min-5f880dc324066b8eee625ec59011026181034bdb4e5bdfed27bd6b3e9bb354b6.js" for 127.0.0.1 at 2020-12-21 17:06:14 -0500
+F, [2020-12-21T17:06:14.265456 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/application-845caade1b19eb089d09daa2d64802b412ab0cc4c3de0f2042b5bf0acb69a3c9.css"):
+  
+F, [2020-12-21T17:06:14.295087 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min-5f880dc324066b8eee625ec59011026181034bdb4e5bdfed27bd6b3e9bb354b6.js"):
+  
+I, [2020-12-21T17:06:14.336676 #30346]  INFO -- : Started GET "/assets/jquery.rss.min-69480f27540e2b3dbee414bfbc427f5d8b4dfdf46c17b3fc4409e52ac616c23c.js" for 127.0.0.1 at 2020-12-21 17:06:14 -0500
+F, [2020-12-21T17:06:14.368902 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery.rss.min-69480f27540e2b3dbee414bfbc427f5d8b4dfdf46c17b3fc4409e52ac616c23c.js"):
+  
+I, [2020-12-21T17:06:14.430024 #30346]  INFO -- : Started GET "/assets/github-activity-debbf8fb401450473e9046f2f9a28679703ee8b810e532695a1dee0d80aa5bff.js" for 127.0.0.1 at 2020-12-21 17:06:14 -0500
+F, [2020-12-21T17:06:14.453828 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/github-activity-debbf8fb401450473e9046f2f9a28679703ee8b810e532695a1dee0d80aa5bff.js"):
+  
+I, [2020-12-21T17:06:14.476646 #30346]  INFO -- : Started GET "/assets/main-a8f4328dba55e05c13a867765ef9067ad4cd757c6f7298d4775c6a889e706e52.js" for 127.0.0.1 at 2020-12-21 17:06:14 -0500
+F, [2020-12-21T17:06:14.500302 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/main-a8f4328dba55e05c13a867765ef9067ad4cd757c6f7298d4775c6a889e706e52.js"):
+  
+I, [2020-12-21T17:06:14.532181 #30346]  INFO -- : Started GET "/assets/images/favicon.ico" for 127.0.0.1 at 2020-12-21 17:06:14 -0500
+F, [2020-12-21T17:06:14.662206 #30346] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  
+D, [2020-12-21T17:06:15.034891 #30346] DEBUG -- :   Rendering project/index.html.haml
+D, [2020-12-21T17:06:15.035533 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 84)
+D, [2020-12-21T17:06:15.035976 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:06:15.036507 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 74)
+D, [2020-12-21T17:06:15.036934 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:06:15.037433 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 70)
+D, [2020-12-21T17:06:15.038095 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.2ms | Allocations: 55)
+D, [2020-12-21T17:06:15.039564 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.4ms | Allocations: 74)
+D, [2020-12-21T17:06:15.040461 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.2ms | Allocations: 55)
+D, [2020-12-21T17:06:15.041818 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.2ms | Allocations: 66)
+D, [2020-12-21T17:06:15.042690 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.2ms | Allocations: 55)
+D, [2020-12-21T17:06:15.043752 #30346] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.2ms | Allocations: 78)
+D, [2020-12-21T17:06:15.044495 #30346] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+I, [2020-12-21T17:06:15.045111 #30346]  INFO -- :   Rendered project/index.html.haml (Duration: 9.9ms | Allocations: 2088)
+D, [2020-12-21T17:06:15.045723 #30346] DEBUG -- :   Rendered home/_skills.html.haml (Duration: 0.1ms | Allocations: 54)
+D, [2020-12-21T17:06:15.046275 #30346] DEBUG -- :   Rendered home/_skills.html.haml (Duration: 0.1ms | Allocations: 54)
+I, [2020-12-21T17:06:15.047248 #30346]  INFO -- :   Rendered home/index.html.haml within layouts/application (Duration: 17624.1ms | Allocations: 2263125)
+I, [2020-12-21T17:06:15.048331 #30346]  INFO -- :   Rendered layout layouts/application.html.haml (Duration: 17626.2ms | Allocations: 2263727)
+I, [2020-12-21T17:06:15.049014 #30346]  INFO -- : Completed 200 OK in 17695ms (Views: 17664.3ms | ActiveRecord: 4.8ms | Allocations: 2271437)
+D, [2020-12-21T17:08:38.007935 #30433] DEBUG -- :   [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:08:38.019014 #30433] DEBUG -- :   [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+D, [2020-12-21T17:08:38.020083 #30433] DEBUG -- :   [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+I, [2020-12-21T17:08:44.365205 #30433]  INFO -- : Started GET "/" for 127.0.0.1 at 2020-12-21 17:08:44 -0500
+I, [2020-12-21T17:08:44.371350 #30433]  INFO -- : Processing by HomeController#index as HTML
+D, [2020-12-21T17:08:44.391077 #30433] DEBUG -- :   [1m[36mSeo Load (0.4ms)[0m  [1m[34mSELECT `seos`.* FROM `seos` WHERE `seos`.`activated` = TRUE[0m
+D, [2020-12-21T17:08:44.430521 #30433] DEBUG -- :   Rendering layout layouts/application.html.haml
+D, [2020-12-21T17:08:44.430841 #30433] DEBUG -- :   Rendering home/index.html.haml within layouts/application
+D, [2020-12-21T17:08:49.701230 #30433] DEBUG -- :   Rendering project/index.html.haml
+D, [2020-12-21T17:08:49.727813 #30433] DEBUG -- :   Rendered project/_header.html.haml (Duration: 9.1ms | Allocations: 3398)
+D, [2020-12-21T17:08:49.741557 #30433] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 6.5ms | Allocations: 1613)
+D, [2020-12-21T17:08:49.742501 #30433] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.2ms | Allocations: 74)
+D, [2020-12-21T17:08:49.742971 #30433] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:08:49.743863 #30433] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 70)
+D, [2020-12-21T17:08:49.744202 #30433] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:08:49.744992 #30433] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.4ms | Allocations: 74)
+D, [2020-12-21T17:08:49.745297 #30433] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:08:49.745692 #30433] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 66)
+D, [2020-12-21T17:08:49.746501 #30433] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+D, [2020-12-21T17:08:49.747096 #30433] DEBUG -- :   Rendered project/_header.html.haml (Duration: 0.1ms | Allocations: 78)
+D, [2020-12-21T17:08:49.747550 #30433] DEBUG -- :   Rendered project/_summary.html.haml (Duration: 0.1ms | Allocations: 55)
+I, [2020-12-21T17:08:49.747978 #30433]  INFO -- :   Rendered project/index.html.haml (Duration: 46.5ms | Allocations: 12758)
+D, [2020-12-21T17:08:49.766934 #30433] DEBUG -- :   Rendered home/_skills.html.haml (Duration: 8.3ms | Allocations: 4528)
+D, [2020-12-21T17:08:49.767640 #30433] DEBUG -- :   Rendered home/_skills.html.haml (Duration: 0.1ms | Allocations: 54)
+I, [2020-12-21T17:08:49.768941 #30433]  INFO -- :   Rendered home/index.html.haml within layouts/application (Duration: 5337.9ms | Allocations: 124544)
+I, [2020-12-21T17:08:49.789873 #30433]  INFO -- :   Rendered layout layouts/application.html.haml (Duration: 5359.1ms | Allocations: 134631)
+I, [2020-12-21T17:08:49.790615 #30433]  INFO -- : Completed 200 OK in 5419ms (Views: 5390.0ms | ActiveRecord: 4.6ms | Allocations: 141865)
+I, [2020-12-21T17:08:49.863197 #30433]  INFO -- : Started GET "/assets/jquery-1.11.1.min-ee0bfc3cd7fce18407a077d6dc748ce4077b127c2f5aacd5a979d1ac1d97ab56.js" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+I, [2020-12-21T17:08:49.867027 #30433]  INFO -- : Started GET "/assets/application-f1cd7705073510943047fb5e9e859ce4cb75ab22635096b0f2189e47c18ef325.js" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+I, [2020-12-21T17:08:49.871298 #30433]  INFO -- : Started GET "/assets/jquery-migrate-1.2.1.min-17651be70caa3fe564b7a2a635dc6b23381f7a5c1ca418ff5d4369ad0d3a559c.js" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+I, [2020-12-21T17:08:49.874217 #30433]  INFO -- : Started GET "/assets/jquery.rss.min-69480f27540e2b3dbee414bfbc427f5d8b4dfdf46c17b3fc4409e52ac616c23c.js" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+F, [2020-12-21T17:08:49.888277 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/application-f1cd7705073510943047fb5e9e859ce4cb75ab22635096b0f2189e47c18ef325.js"):
+  
+F, [2020-12-21T17:08:49.888978 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-1.11.1.min-ee0bfc3cd7fce18407a077d6dc748ce4077b127c2f5aacd5a979d1ac1d97ab56.js"):
+  
+F, [2020-12-21T17:08:49.891886 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-migrate-1.2.1.min-17651be70caa3fe564b7a2a635dc6b23381f7a5c1ca418ff5d4369ad0d3a559c.js"):
+  
+I, [2020-12-21T17:08:49.900546 #30433]  INFO -- : Started GET "/assets/main-a8f4328dba55e05c13a867765ef9067ad4cd757c6f7298d4775c6a889e706e52.js" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+F, [2020-12-21T17:08:49.903177 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery.rss.min-69480f27540e2b3dbee414bfbc427f5d8b4dfdf46c17b3fc4409e52ac616c23c.js"):
+  
+I, [2020-12-21T17:08:49.906778 #30433]  INFO -- : Started GET "/assets/bootstrap.min-1bcd0c2d5e8d262d595b8735f9b4352da43f6ef67d0cd7952eb4b81cf394e4e8.css" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+I, [2020-12-21T17:08:49.905055 #30433]  INFO -- : Started GET "/assets/application-845caade1b19eb089d09daa2d64802b412ab0cc4c3de0f2042b5bf0acb69a3c9.css" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+I, [2020-12-21T17:08:49.915771 #30433]  INFO -- : Started GET "/assets/github-activity-1a43376e6f39686e5135229f126309c671d7d611d510addb9c7a6e54f20d6a3c.css" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+F, [2020-12-21T17:08:49.924309 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/main-a8f4328dba55e05c13a867765ef9067ad4cd757c6f7298d4775c6a889e706e52.js"):
+  
+F, [2020-12-21T17:08:49.935656 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/application-845caade1b19eb089d09daa2d64802b412ab0cc4c3de0f2042b5bf0acb69a3c9.css"):
+  
+I, [2020-12-21T17:08:49.941876 #30433]  INFO -- : Started GET "/assets/styles-f5cd84f158d8f59708d62928b2516a640f4478316103bfaafb2e26d9fd88ee0c.css" for 127.0.0.1 at 2020-12-21 17:08:49 -0500
+F, [2020-12-21T17:08:49.942746 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min-1bcd0c2d5e8d262d595b8735f9b4352da43f6ef67d0cd7952eb4b81cf394e4e8.css"):
+  
+F, [2020-12-21T17:08:49.952808 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/github-activity-1a43376e6f39686e5135229f126309c671d7d611d510addb9c7a6e54f20d6a3c.css"):
+  
+F, [2020-12-21T17:08:49.974554 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/styles-f5cd84f158d8f59708d62928b2516a640f4478316103bfaafb2e26d9fd88ee0c.css"):
+  
+I, [2020-12-21T17:08:50.088696 #30433]  INFO -- : Started GET "/assets/profile3-c155131c157ae4a327afba975cb03bae8f630d221b9809fda83f9e30222b76d2.png" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+I, [2020-12-21T17:08:50.099069 #30433]  INFO -- : Started GET "/assets/jquery-1.11.1.min-ee0bfc3cd7fce18407a077d6dc748ce4077b127c2f5aacd5a979d1ac1d97ab56.js" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+F, [2020-12-21T17:08:50.126948 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-1.11.1.min-ee0bfc3cd7fce18407a077d6dc748ce4077b127c2f5aacd5a979d1ac1d97ab56.js"):
+  
+I, [2020-12-21T17:08:50.148590 #30433]  INFO -- : Started GET "/assets/jquery-migrate-1.2.1.min-17651be70caa3fe564b7a2a635dc6b23381f7a5c1ca418ff5d4369ad0d3a559c.js" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+I, [2020-12-21T17:08:50.185740 #30433]  INFO -- : Started GET "/assets/bootstrap.min-5f880dc324066b8eee625ec59011026181034bdb4e5bdfed27bd6b3e9bb354b6.js" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+I, [2020-12-21T17:08:50.187496 #30433]  INFO -- : Started GET "/assets/github-activity-debbf8fb401450473e9046f2f9a28679703ee8b810e532695a1dee0d80aa5bff.js" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+F, [2020-12-21T17:08:50.192544 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-migrate-1.2.1.min-17651be70caa3fe564b7a2a635dc6b23381f7a5c1ca418ff5d4369ad0d3a559c.js"):
+  
+F, [2020-12-21T17:08:50.208179 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min-5f880dc324066b8eee625ec59011026181034bdb4e5bdfed27bd6b3e9bb354b6.js"):
+  
+F, [2020-12-21T17:08:50.208764 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/github-activity-debbf8fb401450473e9046f2f9a28679703ee8b810e532695a1dee0d80aa5bff.js"):
+  
+I, [2020-12-21T17:08:50.236228 #30433]  INFO -- : Started GET "/assets/jquery.rss.min-69480f27540e2b3dbee414bfbc427f5d8b4dfdf46c17b3fc4409e52ac616c23c.js" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+F, [2020-12-21T17:08:50.260205 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/jquery.rss.min-69480f27540e2b3dbee414bfbc427f5d8b4dfdf46c17b3fc4409e52ac616c23c.js"):
+  
+I, [2020-12-21T17:08:50.279297 #30433]  INFO -- : Started GET "/assets/github-activity-debbf8fb401450473e9046f2f9a28679703ee8b810e532695a1dee0d80aa5bff.js" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+F, [2020-12-21T17:08:50.301030 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/github-activity-debbf8fb401450473e9046f2f9a28679703ee8b810e532695a1dee0d80aa5bff.js"):
+  
+I, [2020-12-21T17:08:50.317526 #30433]  INFO -- : Started GET "/assets/main-a8f4328dba55e05c13a867765ef9067ad4cd757c6f7298d4775c6a889e706e52.js" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+F, [2020-12-21T17:08:50.342119 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/main-a8f4328dba55e05c13a867765ef9067ad4cd757c6f7298d4775c6a889e706e52.js"):
+  
+I, [2020-12-21T17:08:50.365648 #30433]  INFO -- : Started GET "/assets/images/favicon.ico" for 127.0.0.1 at 2020-12-21 17:08:50 -0500
+F, [2020-12-21T17:08:50.414950 #30433] FATAL -- :   
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  
