@@ -15878,3 +15878,246 @@ puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
 puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
 puma (5.1.1) lib/puma/server.rb:431:in `process_client'
 puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (18.6ms)[0m  [1m[35mCREATE DATABASE `portfolio` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE `portfolio` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (52.1ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (162.6ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5854187921895701850', 0)[0m
+  [1m[35m (8.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateSeos (20190207070520)
+  [1m[35m (66.0ms)[0m  [1m[35mCREATE TABLE `seos` (`id` int NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255) NOT NULL, `keyword` varchar(255) NOT NULL, `description` varchar(255) NOT NULL, `activated` tinyint(1) DEFAULT TRUE, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190207070520')[0m
+  [1m[35m (12.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateSystemConstants (20190207094726)
+  [1m[35m (70.1ms)[0m  [1m[35mCREATE TABLE `system_constants` (`id` int NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255) NOT NULL, `value` varchar(255), `autoload` tinyint(1) DEFAULT TRUE, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190207094726')[0m
+  [1m[35m (17.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateProjects (20201215001922)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5854187921895701850')[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5854187921895701850', 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateProjects (20201215001922)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5854187921895701850')[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5854187921895701850', 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateProjects (20201215001922)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5854187921895701850')[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5854187921895701850', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateProjects (20201215001922)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20201215001922')[0m
+  [1m[35m (12.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-12-22 04:56:30', '2020-12-22 04:56:30')[0m
+  [1m[35m (15.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5854187921895701850')[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.6ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSystemConstant Create (0.3ms)[0m  [1m[32mINSERT INTO `system_constants` (`name`, `value`, `created_at`, `updated_at`) VALUES ('courses', 'Operating System,Artificial neural Networks,Analytical Data Mining,Evolutionary Machine Learning,Internet Security,Social Media and Data Mining,Design and Analysis of Algorithm,Structural Programming and Formal Methods,Database Management System', '2020-12-22 04:57:13', '2020-12-22 04:57:13')[0m
+  [1m[35m (15.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mSystemConstant Load (4.9ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.5ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.3ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+Started GET "/" for 127.0.0.1 at 2020-12-22 00:06:53 -0500
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  [1m[36mSeo Load (4.4ms)[0m  [1m[34mSELECT `seos`.* FROM `seos` WHERE `seos`.`activated` = TRUE[0m
+  Rendering home/index.html.haml within layouts/application
+  Rendering project/index.html.haml
+  Rendered project/_header.html.haml (13.6ms)
+  Rendered project/_summary.html.haml (8.9ms)
+  Rendered project/_header.html.haml (0.1ms)
+  Rendered project/_summary.html.haml (0.1ms)
+  Rendered project/_header.html.haml (0.2ms)
+  Rendered project/_summary.html.haml (0.1ms)
+  Rendered project/_header.html.haml (0.1ms)
+  Rendered project/_summary.html.haml (0.1ms)
+  Rendered project/_header.html.haml (0.6ms)
+  Rendered project/_summary.html.haml (0.1ms)
+  Rendered project/_header.html.haml (0.2ms)
+  Rendered project/_summary.html.haml (0.2ms)
+  Rendered project/index.html.haml (47.1ms)
+  Rendered home/_skills.html.haml (15.6ms)
+  Rendered home/_skills.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1767.8ms)
+Completed 200 OK in 2093ms (Views: 2025.8ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/assets/bootstrap-theme.self-fa9e5cf6a4a9fe244ce9f7d34b03f9cff6c02783790cf62135d654587a086dd7.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:55 -0500
+Started GET "/assets/bootstrap-theme.min.self-fee8ad547a5946f07de3f878f9f10e5e10d0d241649f1778c92e21fee13e7e3c.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:55 -0500
+Started GET "/assets/bootstrap.self-46d5751ac0b7f114cb4294988143af531aa069b7a249f3928840faa1600e9cf3.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:55 -0500
+Started GET "/assets/bootstrap.min.self-a2136f50814e64f3dc4cd000975604947d7f3d0a16f1d66295e17c1040ace54f.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+  [1m[35m (10.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Started GET "/assets/experience.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+  [1m[35m (3.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Started GET "/assets/github-activity.self-fb0b8ece4b56b87af4e431960a9e4ea15fc3a276f1322a3549d7f218edb62999.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/application.self-16471f17809adf659c88b7817611a328e5d0cba7339fb6b93ed6471d86a9a891.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/styles.self-bd34c1c9a2b5986d1a89ee4aac711d30c722c62987de862aae7c4fa97fe5030a.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Started GET "/assets/bootstrap.self-3db49e444badb587f34991fa2cec1dd43ab2b86457dbe281d097fd579a595e22.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/bootstrap.min.self-0a65aa3a620a64312bae4036782aace3626cbd19bb8850450beaa0a980620783.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/experience.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/github-activity.self-422738ff3e97bdc6f3f35d9678d5a5910e56afd61b30ac1f112b00c8bfaf9d12.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/jquery-1.11.1.min.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/google_analytics.self-0801975e3968ac601eca93a6110c5ca97b1165649ffe1e67c87de44873daf0c9.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/jquery-migrate-1.2.1.min.self-4b9a092934f8df934403368a55b57a2c6c331f24d2b1f40b452bd2e95356aa3e.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/jquery.rss.min.self-18e00236b21b8f5be8ed533cf3be4790c4bbe27478d1907478830fa90a0997d5.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/main-min.self-4667b3f910f7c1ba298e115bb7ad14a3f502a1285ecc1b5444bb8dfb0c1d167a.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/main.self-9292a03b0a92ad8dd84393df644cc412dce2456d62156af6b622558968246a8a.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/font-awesome.self-5bb70ac8d397d900fe548ae2cd765d7c88af76650b6f4273855862d1863f9593.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/assets/font-awesome.min.self-24830c057166c579a35f81e0f7e966fca2db5795df189f38ee67c6f510f23833.css?body=1" for 127.0.0.1 at 2020-12-22 00:06:56 -0500
+Started GET "/fonts/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2020-12-22 00:06:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.1.0" for 127.0.0.1 at 2020-12-22 00:06:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/assets/images/favicon.ico" for 127.0.0.1 at 2020-12-22 00:06:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+newrelic_rpm (6.14.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mSystemConstant Load (0.4ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'technologies' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.2ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'skills' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m
+  [1m[36mSystemConstant Load (0.2ms)[0m  [1m[34mSELECT  `system_constants`.* FROM `system_constants` WHERE `system_constants`.`name` = 'courses' AND `system_constants`.`autoload` = TRUE ORDER BY `system_constants`.`id` ASC LIMIT 1[0m

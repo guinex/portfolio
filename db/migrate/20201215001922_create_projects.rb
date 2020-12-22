@@ -1,4 +1,4 @@
-class CreateProjects < ActiveRecord::Migration[6.1]
+class CreateProjects < ActiveRecord::Migration[5.2]
   def change
     # create_table :experiences do |t|
 

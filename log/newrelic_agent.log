@@ -2389,3 +2389,45 @@ Did you mean?  Haml
 [2020-12-21 19:28:28 -0500 LAPTOP-R63JOEHG (12041)] INFO : Doing deferred dependency-detection before Rack startup
 [2020-12-21 19:28:33 -0500 LAPTOP-R63JOEHG (12041)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
 [2020-12-21 19:28:53 -0500 LAPTOP-R63JOEHG (12041)] INFO : Starting Agent shutdown
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Starting the New Relic agent version 6.14.0 in "development" environment.
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Reading configuration from config/newrelic.yml (/home/guinex/portfolio/portfolio)
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Environment: development
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : No known dispatcher detected.
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Application: saurabh-chavhan (Development)
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing ActiveJob instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing ActiveStorage 5 instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing Net instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing notifications based Action Cable instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Installing notification based Action View instrumentation
+[2020-12-22 00:06:40 -0500 guinex-VirtualBox (3261)] INFO : Finished instrumentation
+[2020-12-22 00:06:41 -0500 guinex-VirtualBox (3261)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-22 00:06:56 -0500 guinex-VirtualBox (3261)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2020-12-22 00:07:14 -0500 guinex-VirtualBox (3261)] INFO : Starting Agent shutdown
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Starting the New Relic agent version 6.14.0 in "production" environment.
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Reading configuration from config/newrelic.yml (/home/guinex/portfolio/portfolio)
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Environment: production
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : No known dispatcher detected.
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Application: saurabh-chavhan
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing ActiveJob instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing ActiveStorage 5 instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing Net instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing notifications based Action Cable instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Installing notification based Action View instrumentation
+[2020-12-22 00:07:29 -0500 guinex-VirtualBox (3470)] INFO : Finished instrumentation
+[2020-12-22 00:07:31 -0500 guinex-VirtualBox (3470)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-22 00:07:46 -0500 guinex-VirtualBox (3470)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2020-12-22 00:07:53 -0500 guinex-VirtualBox (3470)] INFO : Starting Agent shutdown
