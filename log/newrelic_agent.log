@@ -2237,3 +2237,155 @@ Did you mean?  Haml
 [2020-12-21 18:59:02 -0500 LAPTOP-R63JOEHG (11531)] INFO : Installing notification based Action View instrumentation
 [2020-12-21 18:59:02 -0500 LAPTOP-R63JOEHG (11531)] INFO : Finished instrumentation
 [2020-12-21 18:59:06 -0500 LAPTOP-R63JOEHG (11531)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Starting the New Relic agent version 6.14.0 in "development" environment.
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Reading configuration from config/newrelic.yml (/mnt/c/Users/Guinex/Documents/Github/portfolio)
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Environment: development
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : No known dispatcher detected.
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Application: saurabh-chavhan (Development)
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Installing Net instrumentation
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Installing ActiveJob instrumentation
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Installing notification based Action View instrumentation
+[2020-12-21 19:03:44 -0500 LAPTOP-R63JOEHG (11743)] INFO : Finished instrumentation
+[2020-12-21 19:03:48 -0500 LAPTOP-R63JOEHG (11743)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-21 19:03:52 -0500 LAPTOP-R63JOEHG (11743)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2020-12-21 19:21:27 -0500 LAPTOP-R63JOEHG (11743)] INFO : Starting Agent shutdown
+[2020-12-21 19:21:31 -0500 LAPTOP-R63JOEHG (11768)] INFO : Starting the New Relic agent version 6.14.0 in "development" environment.
+[2020-12-21 19:21:31 -0500 LAPTOP-R63JOEHG (11768)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-12-21 19:21:31 -0500 LAPTOP-R63JOEHG (11768)] INFO : Reading configuration from config/newrelic.yml (/mnt/c/Users/Guinex/Documents/Github/portfolio)
+[2020-12-21 19:21:31 -0500 LAPTOP-R63JOEHG (11768)] INFO : Environment: development
+[2020-12-21 19:21:31 -0500 LAPTOP-R63JOEHG (11768)] INFO : No known dispatcher detected.
+[2020-12-21 19:21:31 -0500 LAPTOP-R63JOEHG (11768)] INFO : Application: saurabh-chavhan (Development)
+[2020-12-21 19:21:31 -0500 LAPTOP-R63JOEHG (11768)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Installing Net instrumentation
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Installing ActiveJob instrumentation
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Installing notification based Action View instrumentation
+[2020-12-21 19:21:32 -0500 LAPTOP-R63JOEHG (11768)] INFO : Finished instrumentation
+[2020-12-21 19:21:35 -0500 LAPTOP-R63JOEHG (11768)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-21 19:21:48 -0500 LAPTOP-R63JOEHG (11768)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2020-12-21 19:23:47 -0500 LAPTOP-R63JOEHG (11768)] INFO : Starting Agent shutdown
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Starting the New Relic agent version 6.14.0 in "development" environment.
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Reading configuration from config/newrelic.yml (/mnt/c/Users/Guinex/Documents/Github/portfolio)
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Environment: development
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : No known dispatcher detected.
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Application: saurabh-chavhan (Development)
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Installing Net instrumentation
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Installing ActiveJob instrumentation
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Installing notification based Action View instrumentation
+[2020-12-21 19:23:51 -0500 LAPTOP-R63JOEHG (11787)] INFO : Finished instrumentation
+[2020-12-21 19:23:55 -0500 LAPTOP-R63JOEHG (11787)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-21 19:24:00 -0500 LAPTOP-R63JOEHG (11787)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2020-12-21 19:24:06 -0500 LAPTOP-R63JOEHG (11787)] INFO : Starting Agent shutdown
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Starting the New Relic agent version 6.14.0 in "development" environment.
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Reading configuration from config/newrelic.yml (/mnt/c/Users/Guinex/Documents/Github/portfolio)
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Environment: development
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : No known dispatcher detected.
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Application: saurabh-chavhan (Development)
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Installing Net instrumentation
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Installing ActiveJob instrumentation
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-21 19:24:11 -0500 LAPTOP-R63JOEHG (11811)] INFO : Installing notification based Action View instrumentation
+[2020-12-21 19:24:12 -0500 LAPTOP-R63JOEHG (11811)] INFO : Finished instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Starting the New Relic agent version 6.14.0 in "development" environment.
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Reading configuration from config/newrelic.yml (/mnt/c/Users/Guinex/Documents/Github/portfolio)
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Environment: development
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : No known dispatcher detected.
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Application: saurabh-chavhan (Development)
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Installing Net instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Installing ActiveJob instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Installing notification based Action View instrumentation
+[2020-12-21 19:25:06 -0500 LAPTOP-R63JOEHG (11822)] INFO : Finished instrumentation
+[2020-12-21 19:25:09 -0500 LAPTOP-R63JOEHG (11822)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-21 19:25:17 -0500 LAPTOP-R63JOEHG (11822)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2020-12-21 19:27:00 -0500 LAPTOP-R63JOEHG (11822)] INFO : Starting Agent shutdown
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Starting the New Relic agent version 6.14.0 in "development" environment.
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Reading configuration from config/newrelic.yml (/mnt/c/Users/Guinex/Documents/Github/portfolio)
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Environment: development
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : No known dispatcher detected.
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Application: saurabh-chavhan (Development)
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing Net instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing ActiveJob instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing ActiveStorage 5 instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing notifications based Action Cable instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Installing notification based Action View instrumentation
+[2020-12-21 19:27:31 -0500 LAPTOP-R63JOEHG (12007)] INFO : Finished instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Starting the New Relic agent version 6.14.0 in "development" environment.
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Reading configuration from config/newrelic.yml (/mnt/c/Users/Guinex/Documents/Github/portfolio)
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Environment: development
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : No known dispatcher detected.
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Application: saurabh-chavhan (Development)
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing Net instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing ActiveJob instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing ActiveStorage 5 instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing notifications based Action Cable instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Installing notification based Action View instrumentation
+[2020-12-21 19:27:38 -0500 LAPTOP-R63JOEHG (12015)] INFO : Finished instrumentation
+[2020-12-21 19:27:41 -0500 LAPTOP-R63JOEHG (12015)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-21 19:27:48 -0500 LAPTOP-R63JOEHG (12015)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2020-12-21 19:28:12 -0500 LAPTOP-R63JOEHG (12015)] INFO : Starting Agent shutdown
+[2020-12-21 19:28:19 -0500 LAPTOP-R63JOEHG (12041)] INFO : Starting the New Relic agent version 6.14.0 in "production" environment.
+[2020-12-21 19:28:19 -0500 LAPTOP-R63JOEHG (12041)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2020-12-21 19:28:19 -0500 LAPTOP-R63JOEHG (12041)] INFO : Reading configuration from config/newrelic.yml (/mnt/c/Users/Guinex/Documents/Github/portfolio)
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Environment: production
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : No known dispatcher detected.
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Application: saurabh-chavhan
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] ERROR : Invalid license key: ENV['NEWRELIC_LICENCE']
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing notifications based Active Record instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing Net instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing ActiveJob instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing ActiveStorage 5 instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing notifications based Action Controller instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing notifications based Action Cable instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Installing notification based Action View instrumentation
+[2020-12-21 19:28:20 -0500 LAPTOP-R63JOEHG (12041)] INFO : Finished instrumentation
+[2020-12-21 19:28:28 -0500 LAPTOP-R63JOEHG (12041)] INFO : Doing deferred dependency-detection before Rack startup
+[2020-12-21 19:28:33 -0500 LAPTOP-R63JOEHG (12041)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2020-12-21 19:28:53 -0500 LAPTOP-R63JOEHG (12041)] INFO : Starting Agent shutdown
